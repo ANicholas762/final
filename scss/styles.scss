@@ -1,0 +1,37 @@
+// global stylings
+@import "variables.scss";
+@import "structure.scss";
+
+// home page stylings
+@import "nav/nav.scss";
+@import "home/banner.scss";
+@import "box-container.scss";
+@import "form-content.scss";
+@import "footer/footer.scss";
+
+// about page stylings
+@import "about.scss";
+
+// tour page stylings
+@import "tour/tour-nav.scss";
+@import "tour/tours-footer.scss";
+@import "tour/tour-banner.scss";
+@import "tour/tour-box-container.scss";
+@import "tour/israel.scss";
+@import "tour/usa.scss";
+@import "tour/aus.scss";
+@import "tour/nz.scss";
+@import "tour/france.scss";
+@import "tour/egypt.scss";
+@import "tour/japan.scss";
+@import "tour/canada.scss";
+@import "tour/uae.scss";
+
+// special offers styling
+@import "specialoffers.scss";
+
+// blog styling
+@import "blog.scss";
+
+// contact styling
+@import "contact.scss";

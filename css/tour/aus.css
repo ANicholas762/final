@@ -1,0 +1,223 @@
+.aus-nav {
+  max-width: 980px;
+  min-height: 80px;
+  margin: 0 auto;
+  border-bottom: 2px solid #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  z-index: 99;
+}
+.aus-nav .aus-logo {
+  width: 92px;
+  height: 42px;
+  border: solid 2px #000000;
+  position: relative;
+}
+.aus-nav .aus-logo p {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 24px;
+  margin-left: 2px;
+  top: 16px;
+  color: #000000;
+}
+.aus-nav .aus-links a {
+  color: #000000;
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.aus-nav .aus-links span {
+  color: #79addc;
+  margin: 0 20px;
+}
+
+.aus-banner {
+  max-width: 980px;
+  height: 300px;
+  background-color: blueviolet;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(/images/tour/tour-03.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/tour/tour-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 60px auto 0 auto;
+  position: relative;
+}
+.aus-banner h1 {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 65px;
+  font-weight: lighter;
+  margin-left: 20px;
+  top: 20px;
+  color: #ffffff;
+}
+.aus-banner p {
+  position: absolute;
+  top: 270px;
+  left: 700px;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.aus-box-container {
+  width: 980px;
+  height: 250px;
+  margin: 0 auto;
+  margin-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.aus-box-container .aus-boxOne {
+  width: 236px;
+  height: 304px;
+  background-color: darkmagenta;
+  background-image: url(/images/tour/tour-aus/aus-tour-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.aus-box-container .aus-boxTwo {
+  width: 236px;
+  height: 304px;
+  background-color: darkmagenta;
+  background-image: url(/images/tour/tour-aus/aus-tour-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.aus-box-container .aus-boxThree {
+  width: 236px;
+  height: 304px;
+  background-color: darkmagenta;
+  background-image: url(/images/tour/tour-aus/aus-tour-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.aus-form-content .day1 {
+  position: relative;
+}
+.aus-form-content .day1 h1 {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-bottom: 2px solid #000000;
+  font-weight: lighter;
+  font-size: 50px;
+  margin-left: 420px;
+  top: 100px;
+  left: -12px;
+}
+.aus-form-content .day1 p {
+  position: absolute;
+  width: 980px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  top: 200px;
+  left: 400px;
+}
+.aus-form-content .day2 {
+  position: relative;
+}
+.aus-form-content .day2 h1 {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-bottom: 2px solid #000000;
+  font-weight: lighter;
+  font-size: 50px;
+  margin-left: 420px;
+  top: 300px;
+  left: -12px;
+}
+.aus-form-content .day2 p {
+  position: absolute;
+  width: 980px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  top: 400px;
+  left: 400px;
+}
+.aus-form-content .day3 {
+  position: relative;
+}
+.aus-form-content .day3 h1 {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-bottom: 2px solid #000000;
+  font-weight: lighter;
+  font-size: 50px;
+  margin-left: 420px;
+  top: 500px;
+  left: -12px;
+}
+.aus-form-content .day3 p {
+  position: absolute;
+  width: 980px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  top: 600px;
+  left: 400px;
+}
+
+.aus {
+  max-width: 1280px;
+  height: 120px;
+  background-color: #79addc;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  margin-top: 800px;
+}
+.aus .logoTwo {
+  width: 92px;
+  height: 42px;
+  border: solid 2px #ffffff;
+  position: relative;
+  margin-left: 6px;
+}
+.aus .logoTwo p {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 24px;
+  margin-left: -1px;
+  top: 16px;
+  color: #ffffff;
+}
+.aus .copy {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  font-size: 14px;
+  margin-left: 515px;
+  margin-top: 10px;
+  color: #ffffff;
+}
+.aus .icons {
+  right: 200px;
+  font-size: 20px;
+  color: #000000;
+}
+.aus .icons span {
+  margin-left: 10px;
+}

@@ -1,0 +1,188 @@
+.about-nav {
+  max-width: 980px;
+  min-height: 80px;
+  margin: 0 auto;
+  border-bottom: 2px solid #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  z-index: 99;
+}
+.about-nav .about-logo {
+  width: 92px;
+  height: 42px;
+  border: solid 2px #000000;
+  position: relative;
+}
+.about-nav .about-logo p {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 24px;
+  margin-left: 2px;
+  top: 16px;
+  color: #000000;
+}
+.about-nav .about-links a {
+  color: #000000;
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.about-nav .about-links span {
+  color: #79addc;
+  margin: 0 20px;
+}
+
+.about-header {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  margin-left: 380px;
+  margin-top: 100px;
+}
+.about-header h1 {
+  margin-bottom: 4px;
+}
+.about-header hr {
+  width: 97px;
+  height: 2px;
+  background-color: #000000;
+  margin-bottom: 16px;
+}
+.about-header p {
+  width: 980px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16px;
+}
+.about-header .about-client-quotes {
+  margin-top: 110px;
+}
+.about-header .about-client-quotes .about-client-title {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 40px;
+  font-weight: lighter;
+  margin-bottom: 4px;
+}
+.about-header .about-client-quotes hr {
+  width: 220px;
+}
+.about-header .client-box {
+  max-width: 722px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  margin-bottom: 37px;
+}
+.about-header .client-box .client-image {
+  width: 260px;
+  height: 150px;
+  overflow: hidden;
+  margin-right: 21px;
+}
+.about-header .client-box .client-image img {
+  width: 100%;
+}
+.about-header .client-box .client-quote {
+  width: 440px;
+  margin-bottom: 20px;
+}
+.about-header .client-box p {
+  width: 300px;
+  font-size: 16px;
+}
+.about-header .client-box .client-name {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: #79addc;
+}
+.about-header .client-box-guy {
+  max-width: 722px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  margin-bottom: 370px;
+}
+.about-header .client-box-guy .client-image-guy {
+  width: 260px;
+  height: 150px;
+  overflow: hidden;
+  margin-right: 21px;
+}
+.about-header .client-box-guy .client-image-guy img {
+  width: 100%;
+}
+.about-header .client-box-guy .client-quote-guy {
+  width: 440px;
+  margin-bottom: 20px;
+}
+.about-header .client-box-guy p {
+  width: 300px;
+  font-size: 16px;
+}
+.about-header .client-box-guy .client-name-guy {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: #79addc;
+}
+
+.about {
+  max-width: 2200px;
+  height: 120px;
+  background-color: #79addc;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  margin-top: 300px;
+  margin-left: -390px;
+}
+.about .logoThree {
+  width: 92px;
+  height: 42px;
+  border: solid 2px #ffffff;
+  position: absolute;
+  margin-left: 100px;
+}
+.about .logoThree p {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 24px;
+  margin-left: -1px;
+  top: 16px;
+  color: #ffffff;
+}
+.about .copy {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  font-size: 14px;
+  margin-left: 400px;
+  margin-top: 10px;
+  color: #ffffff;
+}
+.about .icons {
+  position: absolute;
+  left: 1500px;
+  font-size: 26px;
+  color: #ffffff;
+  width: 180px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}

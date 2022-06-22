@@ -1,0 +1,3844 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+@media screen and (max-width: 1000px) {
+  .form-content {
+    background-color: beige;
+  }
+}
+@media all and (max-width: 800px) {
+  .form-content .media-box {
+    width: 300px;
+  }
+}
+nav {
+  max-width: 980px;
+  min-height: 80px;
+  margin: 0 auto;
+  border-bottom: 2px solid #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  z-index: 99;
+}
+nav .logo {
+  width: 92px;
+  height: 42px;
+  border: solid 2px #ffffff;
+  position: relative;
+}
+nav .logo p {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 24px;
+  margin-left: 2px;
+  top: 16px;
+  color: #ffffff;
+}
+nav .links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+nav .links span {
+  color: #79addc;
+  margin: 0 20px;
+}
+
+.banner {
+  max-width: 1280px;
+  height: 500px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../images/hero-2.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/hero-2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: -90px auto 0 auto;
+  position: relative;
+}
+.banner h1 {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 45px;
+  font-weight: lighter;
+  margin-left: 550px;
+  top: 95px;
+  color: #ffffff;
+}
+.banner p {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  margin-left: 400px;
+  top: 200px;
+  text-align: center;
+  color: #ffffff;
+}
+.banner button {
+  padding: 10px 24px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  margin-left: 550px;
+  margin-top: 290px;
+  background-color: #79addc;
+  color: #ffffff;
+  border-color: #79addc;
+}
+
+.box-container {
+  width: 980px;
+  height: 250px;
+  margin: 0 auto;
+  margin-top: -60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.box-container .boxOne {
+  width: 236px;
+  height: 304px;
+  background-color: darkmagenta;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4))), url(../images/tour/tour-01.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4) rgba(0, 0, 0, 0.4)), url(../images/tour/tour-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.box-container .boxOne h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: lighter;
+  font-size: 45px;
+  color: #ffffff;
+  position: absolute;
+  margin-top: 45px;
+  left: 55px;
+}
+.box-container .boxOne p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: lighter;
+  color: #ffffff;
+  font-size: 20px;
+  position: absolute;
+  margin-top: 100px;
+  left: 70px;
+}
+.box-container .boxOne a {
+  padding: 10px 24px;
+  border-radius: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+  margin-left: 60px;
+  margin-top: 200px;
+  position: absolute;
+  color: #ffffff;
+  background-color: #79addc;
+  border-color: #79addc;
+}
+.box-container .boxTwo {
+  width: 236px;
+  height: 304px;
+  background-color: darkmagenta;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4))), url(../images/tour/tour-02.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4) rgba(0, 0, 0, 0.4)), url(../images/tour/tour-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.box-container .boxTwo h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: lighter;
+  font-size: 45px;
+  color: #ffffff;
+  position: absolute;
+  margin-top: 45px;
+  left: 65px;
+}
+.box-container .boxTwo p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: lighter;
+  color: #ffffff;
+  font-size: 20px;
+  position: absolute;
+  margin-top: 100px;
+  left: 70px;
+}
+.box-container .boxTwo a {
+  padding: 10px 24px;
+  border-radius: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+  margin-left: 60px;
+  margin-top: 200px;
+  position: absolute;
+  color: #ffffff;
+  background-color: #79addc;
+  border-color: #79addc;
+}
+.box-container .boxThree {
+  width: 236px;
+  height: 304px;
+  background-color: darkmagenta;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4))), url(../images/tour/tour-03.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4) rgba(0, 0, 0, 0.4)), url(../images/tour/tour-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.box-container .boxThree h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: lighter;
+  font-size: 45px;
+  color: #ffffff;
+  position: absolute;
+  margin-top: 45px;
+  left: 10px;
+}
+.box-container .boxThree p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: lighter;
+  color: #ffffff;
+  font-size: 20px;
+  position: absolute;
+  margin-top: 100px;
+  left: 65px;
+}
+.box-container .boxThree a {
+  padding: 10px 24px;
+  border-radius: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+  margin-left: 60px;
+  margin-top: 200px;
+  position: absolute;
+  color: #ffffff;
+  background-color: #79addc;
+  border-color: #79addc;
+}
+
+.form-content h1 {
+  margin-top: 80px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 45px;
+  font-weight: lighter;
+  margin-left: 260px;
+}
+.form-content .top-boxes input {
+  height: 35px;
+  padding: 20px;
+  border-color: #79addc;
+  border-style: solid;
+  margin-left: 415px;
+}
+.form-content .top-boxes .name-box {
+  width: 344px;
+  position: relative;
+}
+.form-content .top-boxes .long-box-email {
+  width: 423px;
+  position: absolute;
+  left: 500px;
+}
+.form-content .bottom-boxes input {
+  height: 35;
+  padding: 20px;
+  border-color: #79addc;
+  border-style: solid;
+  margin-left: 415px;
+  margin-top: 30px;
+}
+.form-content .bottom-boxes .country-box {
+  width: 344px;
+  position: relative;
+}
+.form-content .bottom-boxes .hotel-box {
+  width: 423px;
+  position: absolute;
+  left: 500px;
+}
+.form-content .date-boxes input {
+  height: 35px;
+  padding: 20px;
+  border-color: #79addc;
+  border-style: solid;
+  margin-left: 570px;
+  margin-top: 30px;
+}
+.form-content .date-boxes .check-in-box {
+  width: 760px;
+  position: relative;
+}
+.form-content .date-boxes .check-in {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  position: absolute;
+  left: 460px;
+  top: 990px;
+}
+.form-content .date-boxes .check-out-box {
+  width: 760px;
+  position: relative;
+}
+.form-content .date-boxes .check-out {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  position: absolute;
+  left: 460px;
+  top: 1060px;
+}
+.form-content .date-boxes .cal-icons-02 {
+  position: absolute;
+  color: #000000;
+  font-size: 16px;
+  left: 1280px;
+  top: 1080px;
+}
+.form-content .date-boxes .cal-icons-01 {
+  position: absolute;
+  color: #000000;
+  font-size: 16px;
+  left: 1280px;
+  top: 1006px;
+}
+.form-content .drop-down-boxes select {
+  position: absolute;
+  width: 5%;
+  padding: 16px 20px;
+  border-color: #79addc;
+  border-style: solid;
+  border-radius: 4px;
+}
+.form-content .drop-down-boxes .adult-box {
+  margin-top: 80px;
+  margin-left: 550px;
+}
+.form-content .drop-down-boxes .adult-label {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+  position: absolute;
+  left: 500px;
+  top: 1154px;
+}
+.form-content .drop-down-boxes .children-box {
+  margin-top: -32px;
+  margin-left: 920px;
+}
+.form-content .drop-down-boxes .children-label {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+  position: absolute;
+  left: 850px;
+  top: 1154px;
+}
+.form-content .drop-down-boxes .hotel-box {
+  margin-top: -32px;
+  margin-left: 1250px;
+}
+.form-content .drop-down-boxes .hotel-label {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+  position: absolute;
+  left: 1200px;
+  top: 1154px;
+}
+.form-content .message {
+  position: absolute;
+  top: 1260px;
+  left: 400px;
+}
+.form-content .message input {
+  width: 940px;
+  height: 192px;
+  border-color: #79addc;
+  border-style: solid;
+}
+.form-content .message button {
+  padding: 14px 400px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  margin-left: 40px;
+  margin-top: 40px;
+  background-color: #79addc;
+  color: #ffffff;
+  border-color: #79addc;
+  border-radius: 20px;
+}
+
+.home {
+  max-width: 100%;
+  height: 120px;
+  background-color: #79addc;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  margin-top: 560px;
+}
+.home .logo {
+  width: 92px;
+  height: 42px;
+  border: solid 2px #ffffff;
+  position: relative;
+  margin-left: 120px;
+}
+.home .logo p {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 24px;
+  margin-left: -1px;
+  top: 16px;
+  color: #ffffff;
+}
+.home .copy {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  font-size: 14px;
+  left: 750px;
+  margin-top: 30px;
+  color: #ffffff;
+}
+.home .icons {
+  position: absolute;
+  left: 1500px;
+  top: 50px;
+  font-size: 26px;
+  color: #ffffff;
+  width: 180px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.about-nav {
+  max-width: 980px;
+  min-height: 80px;
+  margin: 0 auto;
+  border-bottom: 2px solid #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  z-index: 99;
+}
+.about-nav .about-logo {
+  width: 92px;
+  height: 42px;
+  border: solid 2px #000000;
+  position: relative;
+}
+.about-nav .about-logo p {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 24px;
+  margin-left: 2px;
+  top: 16px;
+  color: #000000;
+}
+.about-nav .about-links a {
+  color: #000000;
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.about-nav .about-links span {
+  color: #79addc;
+  margin: 0 20px;
+}
+
+.about-header {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  margin-left: 380px;
+  margin-top: 100px;
+}
+.about-header h1 {
+  margin-bottom: 4px;
+}
+.about-header hr {
+  width: 97px;
+  height: 2px;
+  background-color: #000000;
+  margin-bottom: 16px;
+}
+.about-header p {
+  width: 980px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16px;
+}
+.about-header .about-client-quotes {
+  margin-top: 110px;
+}
+.about-header .about-client-quotes .about-client-title {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 40px;
+  font-weight: lighter;
+  margin-bottom: 4px;
+}
+.about-header .about-client-quotes hr {
+  width: 220px;
+}
+.about-header .client-box {
+  max-width: 722px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  margin-bottom: 37px;
+}
+.about-header .client-box .client-image {
+  width: 260px;
+  height: 150px;
+  overflow: hidden;
+  margin-right: 21px;
+}
+.about-header .client-box .client-image img {
+  width: 100%;
+}
+.about-header .client-box .client-quote {
+  width: 440px;
+  margin-bottom: 20px;
+}
+.about-header .client-box p {
+  width: 300px;
+  font-size: 16px;
+}
+.about-header .client-box .client-name {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: #79addc;
+}
+.about-header .client-box-guy {
+  max-width: 722px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  margin-bottom: 370px;
+}
+.about-header .client-box-guy .client-image-guy {
+  width: 260px;
+  height: 150px;
+  overflow: hidden;
+  margin-right: 21px;
+}
+.about-header .client-box-guy .client-image-guy img {
+  width: 100%;
+}
+.about-header .client-box-guy .client-quote-guy {
+  width: 440px;
+  margin-bottom: 20px;
+}
+.about-header .client-box-guy p {
+  width: 300px;
+  font-size: 16px;
+}
+.about-header .client-box-guy .client-name-guy {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: #79addc;
+}
+
+.about {
+  max-width: 2200px;
+  height: 120px;
+  background-color: #79addc;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  margin-top: 300px;
+  margin-left: -390px;
+}
+.about .logoThree {
+  width: 92px;
+  height: 42px;
+  border: solid 2px #ffffff;
+  position: absolute;
+  margin-left: 100px;
+}
+.about .logoThree p {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 24px;
+  margin-left: -1px;
+  top: 16px;
+  color: #ffffff;
+}
+.about .copy {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  font-size: 14px;
+  margin-left: 400px;
+  margin-top: 10px;
+  color: #ffffff;
+}
+.about .icons {
+  position: absolute;
+  left: 1500px;
+  font-size: 26px;
+  color: #ffffff;
+  width: 180px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.tours-nav {
+  max-width: 980px;
+  min-height: 80px;
+  margin: 0 auto;
+  border-bottom: 2px solid #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  z-index: 99;
+}
+.tours-nav .tours-logo {
+  width: 92px;
+  height: 42px;
+  border: solid 2px #000000;
+  position: relative;
+}
+.tours-nav .tours-logo p {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 24px;
+  margin-left: 2px;
+  top: 16px;
+  color: #000000;
+}
+.tours-nav .tours-links a {
+  color: #000000;
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.tours-nav .tours-links span {
+  color: #79addc;
+  margin: 0 20px;
+}
+
+.tour {
+  max-width: 100%;
+  height: 120px;
+  background-color: #79addc;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  margin-top: 200px;
+}
+.tour .logoTwo {
+  width: 92px;
+  height: 42px;
+  border: solid 2px #ffffff;
+  position: relative;
+  margin-left: 120px;
+}
+.tour .logoTwo p {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 24px;
+  margin-left: -1px;
+  top: 16px;
+  color: #ffffff;
+}
+.tour .copy {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  font-size: 14px;
+  left: 750px;
+  margin-top: 30px;
+  color: #ffffff;
+}
+.tour .icons {
+  position: absolute;
+  left: 1500px;
+  top: 50px;
+  font-size: 26px;
+  color: #ffffff;
+  width: 180px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.tour-banner {
+  max-width: 1280px;
+  height: 200px;
+  background-color: blueviolet;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(/images/tour/tours-header.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/tour/tours-header.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 60px auto 0 auto;
+  position: relative;
+}
+.tour-banner h1 {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 65px;
+  font-weight: lighter;
+  margin-left: 550px;
+  top: 60px;
+  color: #ffffff;
+}
+
+.tour-box-container {
+  width: 980px;
+  height: 250px;
+  margin: 0 auto;
+  margin-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.tour-box-container .tour-boxOne {
+  width: 236px;
+  height: 304px;
+  background-color: darkmagenta;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4))), url(../images/tour/tour-01.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4) rgba(0, 0, 0, 0.4)), url(../images/tour/tour-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.tour-box-container .tour-boxOne h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: lighter;
+  font-size: 45px;
+  color: #ffffff;
+  position: absolute;
+  margin-top: 45px;
+  left: 55px;
+}
+.tour-box-container .tour-boxOne p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: lighter;
+  color: #ffffff;
+  font-size: 20px;
+  position: absolute;
+  margin-top: 100px;
+  left: 70px;
+}
+.tour-box-container .tour-boxOne a {
+  padding: 10px 24px;
+  border-radius: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+  margin-left: 60px;
+  margin-top: 200px;
+  position: absolute;
+  color: #ffffff;
+  background-color: #79addc;
+  border-color: #79addc;
+}
+.tour-box-container .tour-boxTwo {
+  width: 236px;
+  height: 304px;
+  background-color: darkmagenta;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4))), url(../images/tour/tour-02.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4) rgba(0, 0, 0, 0.4)), url(../images/tour/tour-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.tour-box-container .tour-boxTwo h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: lighter;
+  font-size: 45px;
+  color: #ffffff;
+  position: absolute;
+  margin-top: 45px;
+  left: 65px;
+}
+.tour-box-container .tour-boxTwo p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: lighter;
+  color: #ffffff;
+  font-size: 20px;
+  position: absolute;
+  margin-top: 100px;
+  left: 70px;
+}
+.tour-box-container .tour-boxTwo a {
+  padding: 10px 24px;
+  border-radius: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+  margin-left: 60px;
+  margin-top: 200px;
+  position: absolute;
+  color: #ffffff;
+  background-color: #79addc;
+  border-color: #79addc;
+}
+.tour-box-container .tour-boxThree {
+  width: 236px;
+  height: 304px;
+  background-color: darkmagenta;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4))), url(../images/tour/tour-03.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4) rgba(0, 0, 0, 0.4)), url(../images/tour/tour-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.tour-box-container .tour-boxThree h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: lighter;
+  font-size: 45px;
+  color: #ffffff;
+  position: absolute;
+  margin-top: 45px;
+  left: 10px;
+}
+.tour-box-container .tour-boxThree p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: lighter;
+  color: #ffffff;
+  font-size: 20px;
+  position: absolute;
+  margin-top: 100px;
+  left: 65px;
+}
+.tour-box-container .tour-boxThree a {
+  padding: 10px 24px;
+  border-radius: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+  margin-left: 60px;
+  margin-top: 200px;
+  position: absolute;
+  color: #ffffff;
+  background-color: #79addc;
+  border-color: #79addc;
+}
+
+.tour-box-container2 {
+  width: 980px;
+  height: 250px;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.tour-box-container2 .tour-boxfour {
+  width: 236px;
+  height: 304px;
+  background-color: darkmagenta;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4))), url(../images/tour/tour-04.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4) rgba(0, 0, 0, 0.4)), url(../images/tour/tour-04.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.tour-box-container2 .tour-boxfour h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: lighter;
+  font-size: 34px;
+  color: #ffffff;
+  position: absolute;
+  margin-top: 45px;
+  left: 20px;
+}
+.tour-box-container2 .tour-boxfour p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: lighter;
+  color: #ffffff;
+  font-size: 20px;
+  position: absolute;
+  margin-top: 90px;
+  left: 70px;
+}
+.tour-box-container2 .tour-boxfour a {
+  padding: 10px 24px;
+  border-radius: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+  margin-left: 60px;
+  margin-top: 200px;
+  position: absolute;
+  color: #ffffff;
+  background-color: #79addc;
+  border-color: #79addc;
+}
+.tour-box-container2 .tour-boxfive {
+  width: 236px;
+  height: 304px;
+  background-color: darkmagenta;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4))), url(../images/tour/tour-05.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4) rgba(0, 0, 0, 0.4)), url(../images/tour/tour-05.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.tour-box-container2 .tour-boxfive h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: lighter;
+  font-size: 45px;
+  color: #ffffff;
+  position: absolute;
+  margin-top: 45px;
+  left: 55px;
+}
+.tour-box-container2 .tour-boxfive p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: lighter;
+  color: #ffffff;
+  font-size: 20px;
+  position: absolute;
+  margin-top: 100px;
+  left: 70px;
+}
+.tour-box-container2 .tour-boxfive a {
+  padding: 10px 24px;
+  border-radius: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+  margin-left: 60px;
+  margin-top: 200px;
+  position: absolute;
+  color: #ffffff;
+  background-color: #79addc;
+  border-color: #79addc;
+}
+.tour-box-container2 .tour-boxsix {
+  width: 236px;
+  height: 304px;
+  background-color: darkmagenta;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4))), url(../images/tour/tour-06.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4) rgba(0, 0, 0, 0.4)), url(../images/tour/tour-06.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.tour-box-container2 .tour-boxsix h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: lighter;
+  font-size: 45px;
+  color: #ffffff;
+  position: absolute;
+  margin-top: 45px;
+  left: 65px;
+}
+.tour-box-container2 .tour-boxsix p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: lighter;
+  color: #ffffff;
+  font-size: 20px;
+  position: absolute;
+  margin-top: 100px;
+  left: 75px;
+}
+.tour-box-container2 .tour-boxsix a {
+  padding: 10px 24px;
+  border-radius: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+  margin-left: 60px;
+  margin-top: 200px;
+  position: absolute;
+  color: #ffffff;
+  background-color: #79addc;
+  border-color: #79addc;
+}
+
+.tour-box-container3 {
+  width: 980px;
+  height: 250px;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.tour-box-container3 .tour-boxseven {
+  width: 236px;
+  height: 304px;
+  background-color: darkmagenta;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4))), url(../images/tour/tour-07.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4) rgba(0, 0, 0, 0.4)), url(../images/tour/tour-07.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.tour-box-container3 .tour-boxseven h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: lighter;
+  font-size: 50px;
+  color: #ffffff;
+  position: absolute;
+  margin-top: 45px;
+  left: 50px;
+}
+.tour-box-container3 .tour-boxseven p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: lighter;
+  color: #ffffff;
+  font-size: 20px;
+  position: absolute;
+  margin-top: 100px;
+  left: 70px;
+}
+.tour-box-container3 .tour-boxseven a {
+  padding: 10px 24px;
+  border-radius: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+  margin-left: 60px;
+  margin-top: 200px;
+  position: absolute;
+  color: #ffffff;
+  background-color: #79addc;
+  border-color: #79addc;
+}
+.tour-box-container3 .tour-boxeight {
+  width: 236px;
+  height: 304px;
+  background-color: darkmagenta;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4))), url(../images/tour/tour-08.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4) rgba(0, 0, 0, 0.4)), url(../images/tour/tour-08.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.tour-box-container3 .tour-boxeight h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: lighter;
+  font-size: 45px;
+  color: #ffffff;
+  position: absolute;
+  margin-top: 45px;
+  left: 50px;
+}
+.tour-box-container3 .tour-boxeight p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: lighter;
+  color: #ffffff;
+  font-size: 20px;
+  position: absolute;
+  margin-top: 100px;
+  left: 70px;
+}
+.tour-box-container3 .tour-boxeight a {
+  padding: 10px 24px;
+  border-radius: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+  margin-left: 60px;
+  margin-top: 200px;
+  position: absolute;
+  color: #ffffff;
+  background-color: #79addc;
+  border-color: #79addc;
+}
+.tour-box-container3 .tour-boxnine {
+  width: 236px;
+  height: 304px;
+  background-color: darkmagenta;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4))), url(../images/tour/tour-09.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4) rgba(0, 0, 0, 0.4)), url(../images/tour/tour-09.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.tour-box-container3 .tour-boxnine h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: lighter;
+  font-size: 45px;
+  color: #ffffff;
+  position: absolute;
+  margin-top: 45px;
+  left: 65px;
+}
+.tour-box-container3 .tour-boxnine p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: lighter;
+  color: #ffffff;
+  font-size: 20px;
+  position: absolute;
+  margin-top: 100px;
+  left: 75px;
+}
+.tour-box-container3 .tour-boxnine a {
+  padding: 10px 24px;
+  border-radius: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+  margin-left: 60px;
+  margin-top: 200px;
+  position: absolute;
+  color: #ffffff;
+  background-color: #79addc;
+  border-color: #79addc;
+}
+
+.israel-nav {
+  max-width: 980px;
+  min-height: 80px;
+  margin: 0 auto;
+  border-bottom: 2px solid #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  z-index: 99;
+}
+.israel-nav .israel-logo {
+  width: 92px;
+  height: 42px;
+  border: solid 2px #000000;
+  position: relative;
+}
+.israel-nav .israel-logo p {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 24px;
+  margin-left: 2px;
+  top: 16px;
+  color: #000000;
+}
+.israel-nav .israel-links a {
+  color: #000000;
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.israel-nav .israel-links span {
+  color: #79addc;
+  margin: 0 20px;
+}
+
+.israel-banner {
+  max-width: 980px;
+  height: 300px;
+  background-color: blueviolet;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/tour/tour-01.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 60px auto 0 auto;
+  position: relative;
+}
+.israel-banner h1 {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 65px;
+  font-weight: lighter;
+  margin-left: 20px;
+  top: 20px;
+  color: #ffffff;
+}
+.israel-banner p {
+  position: absolute;
+  top: 270px;
+  left: 700px;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.israel-box-container {
+  width: 980px;
+  height: 250px;
+  margin: 0 auto;
+  margin-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.israel-box-container .israel-boxOne {
+  width: 236px;
+  height: 304px;
+  background-color: darkmagenta;
+  background-image: url(../images/tour/tour-israel/israel-tour-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.israel-box-container .israel-boxTwo {
+  width: 236px;
+  height: 304px;
+  background-color: darkmagenta;
+  background-image: url(../images/tour/tour-israel/israel-tour-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.israel-box-container .israel-boxThree {
+  width: 236px;
+  height: 304px;
+  background-color: darkmagenta;
+  background-image: url(../images/tour/tour-israel/israel-tour-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.israel-form-content .day1 {
+  position: relative;
+}
+.israel-form-content .day1 h1 {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-bottom: 2px solid #000000;
+  font-weight: lighter;
+  font-size: 50px;
+  margin-left: 420px;
+  top: 100px;
+  left: -12px;
+}
+.israel-form-content .day1 p {
+  position: absolute;
+  width: 980px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  top: 200px;
+  left: 400px;
+}
+.israel-form-content .day2 {
+  position: relative;
+}
+.israel-form-content .day2 h1 {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-bottom: 2px solid #000000;
+  font-weight: lighter;
+  font-size: 50px;
+  margin-left: 420px;
+  top: 300px;
+  left: -12px;
+}
+.israel-form-content .day2 p {
+  position: absolute;
+  width: 980px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  top: 400px;
+  left: 400px;
+}
+.israel-form-content .day3 {
+  position: relative;
+}
+.israel-form-content .day3 h1 {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-bottom: 2px solid #000000;
+  font-weight: lighter;
+  font-size: 50px;
+  margin-left: 420px;
+  top: 500px;
+  left: -12px;
+}
+.israel-form-content .day3 p {
+  position: absolute;
+  width: 980px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  top: 600px;
+  left: 400px;
+}
+
+.israel {
+  max-width: 1280px;
+  height: 120px;
+  background-color: #79addc;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  margin-top: 800px;
+}
+.israel .logoTwo {
+  width: 92px;
+  height: 42px;
+  border: solid 2px #ffffff;
+  position: relative;
+  margin-left: 6px;
+}
+.israel .logoTwo p {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 24px;
+  margin-left: -1px;
+  top: 16px;
+  color: #ffffff;
+}
+.israel .copy {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  font-size: 14px;
+  margin-left: 515px;
+  margin-top: 10px;
+  color: #ffffff;
+}
+.israel .icons {
+  right: 200px;
+  font-size: 20px;
+  color: #000000;
+}
+.israel .icons span {
+  margin-left: 10px;
+}
+
+.usa-nav {
+  max-width: 980px;
+  min-height: 80px;
+  margin: 0 auto;
+  border-bottom: 2px solid #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  z-index: 99;
+}
+.usa-nav .usa-logo {
+  width: 92px;
+  height: 42px;
+  border: solid 2px #000000;
+  position: relative;
+}
+.usa-nav .usa-logo p {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 24px;
+  margin-left: 2px;
+  top: 16px;
+  color: #000000;
+}
+.usa-nav .usa-links a {
+  color: #000000;
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.usa-nav .usa-links span {
+  color: #79addc;
+  margin: 0 20px;
+}
+
+.usa-banner {
+  max-width: 980px;
+  height: 300px;
+  background-color: blueviolet;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(/images/tour/tour-02.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/tour/tour-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 60px auto 0 auto;
+  position: relative;
+}
+.usa-banner h1 {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 65px;
+  font-weight: lighter;
+  margin-left: 20px;
+  top: 20px;
+  color: #ffffff;
+}
+.usa-banner p {
+  position: absolute;
+  top: 270px;
+  left: 700px;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.usa-box-container {
+  width: 980px;
+  height: 250px;
+  margin: 0 auto;
+  margin-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.usa-box-container .usa-boxOne {
+  width: 236px;
+  height: 304px;
+  background-color: darkmagenta;
+  background-image: url(/images/tour/tour-usa/usa-tour-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.usa-box-container .usa-boxTwo {
+  width: 236px;
+  height: 304px;
+  background-color: darkmagenta;
+  background-image: url(/images/tour/tour-usa/usa-tour-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.usa-box-container .usa-boxThree {
+  width: 236px;
+  height: 304px;
+  background-color: darkmagenta;
+  background-image: url(/images/tour/tour-usa/usa-tour-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.usa-form-content .day1 {
+  position: relative;
+}
+.usa-form-content .day1 h1 {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-bottom: 2px solid #000000;
+  font-weight: lighter;
+  font-size: 50px;
+  margin-left: 420px;
+  top: 100px;
+  left: -12px;
+}
+.usa-form-content .day1 p {
+  position: absolute;
+  width: 980px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  top: 200px;
+  left: 400px;
+}
+.usa-form-content .day2 {
+  position: relative;
+}
+.usa-form-content .day2 h1 {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-bottom: 2px solid #000000;
+  font-weight: lighter;
+  font-size: 50px;
+  margin-left: 420px;
+  top: 300px;
+  left: -12px;
+}
+.usa-form-content .day2 p {
+  position: absolute;
+  width: 980px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  top: 400px;
+  left: 400px;
+}
+.usa-form-content .day3 {
+  position: relative;
+}
+.usa-form-content .day3 h1 {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-bottom: 2px solid #000000;
+  font-weight: lighter;
+  font-size: 50px;
+  margin-left: 420px;
+  top: 500px;
+  left: -12px;
+}
+.usa-form-content .day3 p {
+  position: absolute;
+  width: 980px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  top: 600px;
+  left: 400px;
+}
+
+.usa {
+  max-width: 1280px;
+  height: 120px;
+  background-color: #79addc;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  margin-top: 800px;
+}
+.usa .logoTwo {
+  width: 92px;
+  height: 42px;
+  border: solid 2px #ffffff;
+  position: relative;
+  margin-left: 6px;
+}
+.usa .logoTwo p {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 24px;
+  margin-left: -1px;
+  top: 16px;
+  color: #ffffff;
+}
+.usa .copy {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  font-size: 14px;
+  margin-left: 515px;
+  margin-top: 10px;
+  color: #ffffff;
+}
+.usa .icons {
+  right: 200px;
+  font-size: 20px;
+  color: #000000;
+}
+.usa .icons span {
+  margin-left: 10px;
+}
+
+.aus-nav {
+  max-width: 980px;
+  min-height: 80px;
+  margin: 0 auto;
+  border-bottom: 2px solid #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  z-index: 99;
+}
+.aus-nav .aus-logo {
+  width: 92px;
+  height: 42px;
+  border: solid 2px #000000;
+  position: relative;
+}
+.aus-nav .aus-logo p {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 24px;
+  margin-left: 2px;
+  top: 16px;
+  color: #000000;
+}
+.aus-nav .aus-links a {
+  color: #000000;
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.aus-nav .aus-links span {
+  color: #79addc;
+  margin: 0 20px;
+}
+
+.aus-banner {
+  max-width: 980px;
+  height: 300px;
+  background-color: blueviolet;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(/images/tour/tour-03.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/tour/tour-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 60px auto 0 auto;
+  position: relative;
+}
+.aus-banner h1 {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 65px;
+  font-weight: lighter;
+  margin-left: 20px;
+  top: 20px;
+  color: #ffffff;
+}
+.aus-banner p {
+  position: absolute;
+  top: 270px;
+  left: 700px;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.aus-box-container {
+  width: 980px;
+  height: 250px;
+  margin: 0 auto;
+  margin-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.aus-box-container .aus-boxOne {
+  width: 236px;
+  height: 304px;
+  background-color: darkmagenta;
+  background-image: url(/images/tour/tour-aus/aus-tour-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.aus-box-container .aus-boxTwo {
+  width: 236px;
+  height: 304px;
+  background-color: darkmagenta;
+  background-image: url(/images/tour/tour-aus/aus-tour-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.aus-box-container .aus-boxThree {
+  width: 236px;
+  height: 304px;
+  background-color: darkmagenta;
+  background-image: url(/images/tour/tour-aus/aus-tour-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.aus-form-content .day1 {
+  position: relative;
+}
+.aus-form-content .day1 h1 {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-bottom: 2px solid #000000;
+  font-weight: lighter;
+  font-size: 50px;
+  margin-left: 420px;
+  top: 100px;
+  left: -12px;
+}
+.aus-form-content .day1 p {
+  position: absolute;
+  width: 980px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  top: 200px;
+  left: 400px;
+}
+.aus-form-content .day2 {
+  position: relative;
+}
+.aus-form-content .day2 h1 {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-bottom: 2px solid #000000;
+  font-weight: lighter;
+  font-size: 50px;
+  margin-left: 420px;
+  top: 300px;
+  left: -12px;
+}
+.aus-form-content .day2 p {
+  position: absolute;
+  width: 980px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  top: 400px;
+  left: 400px;
+}
+.aus-form-content .day3 {
+  position: relative;
+}
+.aus-form-content .day3 h1 {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-bottom: 2px solid #000000;
+  font-weight: lighter;
+  font-size: 50px;
+  margin-left: 420px;
+  top: 500px;
+  left: -12px;
+}
+.aus-form-content .day3 p {
+  position: absolute;
+  width: 980px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  top: 600px;
+  left: 400px;
+}
+
+.aus {
+  max-width: 1280px;
+  height: 120px;
+  background-color: #79addc;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  margin-top: 800px;
+}
+.aus .logoTwo {
+  width: 92px;
+  height: 42px;
+  border: solid 2px #ffffff;
+  position: relative;
+  margin-left: 6px;
+}
+.aus .logoTwo p {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 24px;
+  margin-left: -1px;
+  top: 16px;
+  color: #ffffff;
+}
+.aus .copy {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  font-size: 14px;
+  margin-left: 515px;
+  margin-top: 10px;
+  color: #ffffff;
+}
+.aus .icons {
+  right: 200px;
+  font-size: 20px;
+  color: #000000;
+}
+.aus .icons span {
+  margin-left: 10px;
+}
+
+.nz-nav {
+  max-width: 980px;
+  min-height: 80px;
+  margin: 0 auto;
+  border-bottom: 2px solid #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  z-index: 99;
+}
+.nz-nav .nz-logo {
+  width: 92px;
+  height: 42px;
+  border: solid 2px #000000;
+  position: relative;
+}
+.nz-nav .nz-logo p {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 24px;
+  margin-left: 2px;
+  top: 16px;
+  color: #000000;
+}
+.nz-nav .nz-links a {
+  color: #000000;
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.nz-nav .nz-links span {
+  color: #79addc;
+  margin: 0 20px;
+}
+
+.nz-banner {
+  max-width: 980px;
+  height: 300px;
+  background-color: blueviolet;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(/images/tour/tour-04.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/tour/tour-04.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 60px auto 0 auto;
+  position: relative;
+}
+.nz-banner h1 {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 65px;
+  font-weight: lighter;
+  margin-left: 20px;
+  top: 20px;
+  color: #ffffff;
+}
+.nz-banner p {
+  position: absolute;
+  top: 270px;
+  left: 700px;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.nz-box-container {
+  width: 980px;
+  height: 250px;
+  margin: 0 auto;
+  margin-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.nz-box-container .nz-boxOne {
+  width: 236px;
+  height: 304px;
+  background-color: darkmagenta;
+  background-image: url(/images/tour/tour-nz/nz-tour-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.nz-box-container .nz-boxTwo {
+  width: 236px;
+  height: 304px;
+  background-color: darkmagenta;
+  background-image: url(/images/tour/tour-nz/nz-tour-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.nz-box-container .nz-boxThree {
+  width: 236px;
+  height: 304px;
+  background-color: darkmagenta;
+  background-image: url(/images/tour/tour-nz/nz-tour-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.nz-form-content .day1 {
+  position: relative;
+}
+.nz-form-content .day1 h1 {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-bottom: 2px solid #000000;
+  font-weight: lighter;
+  font-size: 50px;
+  margin-left: 420px;
+  top: 100px;
+  left: -12px;
+}
+.nz-form-content .day1 p {
+  position: absolute;
+  width: 980px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  top: 200px;
+  left: 400px;
+}
+.nz-form-content .day2 {
+  position: relative;
+}
+.nz-form-content .day2 h1 {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-bottom: 2px solid #000000;
+  font-weight: lighter;
+  font-size: 50px;
+  margin-left: 420px;
+  top: 300px;
+  left: -12px;
+}
+.nz-form-content .day2 p {
+  position: absolute;
+  width: 980px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  top: 400px;
+  left: 400px;
+}
+.nz-form-content .day3 {
+  position: relative;
+}
+.nz-form-content .day3 h1 {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-bottom: 2px solid #000000;
+  font-weight: lighter;
+  font-size: 50px;
+  margin-left: 420px;
+  top: 500px;
+  left: -12px;
+}
+.nz-form-content .day3 p {
+  position: absolute;
+  width: 980px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  top: 600px;
+  left: 400px;
+}
+
+.nz {
+  max-width: 1280px;
+  height: 120px;
+  background-color: #79addc;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  margin-top: 800px;
+}
+.nz .logoTwo {
+  width: 92px;
+  height: 42px;
+  border: solid 2px #000000;
+  position: relative;
+  margin-left: 6px;
+}
+.nz .logoTwo p {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 24px;
+  margin-left: -1px;
+  top: 16px;
+  color: #ffffff;
+}
+.nz .copy {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  font-size: 14px;
+  margin-left: 515px;
+  margin-top: 10px;
+  color: #ffffff;
+}
+.nz .icons {
+  right: 200px;
+  font-size: 20px;
+  color: #000000;
+}
+.nz .icons span {
+  margin-left: 10px;
+}
+
+.f-nav {
+  max-width: 980px;
+  min-height: 80px;
+  margin: 0 auto;
+  border-bottom: 2px solid #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  z-index: 99;
+}
+.f-nav .f-logo {
+  width: 92px;
+  height: 42px;
+  border: solid 2px #000000;
+  position: relative;
+}
+.f-nav .f-logo p {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 24px;
+  margin-left: 2px;
+  top: 16px;
+  color: #000000;
+}
+.f-nav .f-links a {
+  color: #000000;
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.f-nav .f-links span {
+  color: #79addc;
+  margin: 0 20px;
+}
+
+.f-banner {
+  max-width: 980px;
+  height: 300px;
+  background-color: blueviolet;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(/images/tour/tour-05.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/tour/tour-05.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 60px auto 0 auto;
+  position: relative;
+}
+.f-banner h1 {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 65px;
+  font-weight: lighter;
+  margin-left: 20px;
+  top: 20px;
+  color: #ffffff;
+}
+.f-banner p {
+  position: absolute;
+  top: 270px;
+  left: 700px;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.f-box-container {
+  width: 980px;
+  height: 250px;
+  margin: 0 auto;
+  margin-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.f-box-container .f-boxOne {
+  width: 236px;
+  height: 304px;
+  background-color: darkmagenta;
+  background-image: url(../images/tour/tour-france/france-tour-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.f-box-container .f-boxTwo {
+  width: 236px;
+  height: 304px;
+  background-color: darkmagenta;
+  background-image: url(../images/tour/tour-france/france-tour-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.f-box-container .f-boxThree {
+  width: 236px;
+  height: 304px;
+  background-color: darkmagenta;
+  background-image: url(../images/tour/tour-france/france-tour-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.f-form-content .day1 {
+  position: relative;
+}
+.f-form-content .day1 h1 {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-bottom: 2px solid #000000;
+  font-weight: lighter;
+  font-size: 50px;
+  margin-left: 420px;
+  top: 100px;
+  left: -12px;
+}
+.f-form-content .day1 p {
+  position: absolute;
+  width: 980px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  top: 200px;
+  left: 400px;
+}
+.f-form-content .day2 {
+  position: relative;
+}
+.f-form-content .day2 h1 {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-bottom: 2px solid #000000;
+  font-weight: lighter;
+  font-size: 50px;
+  margin-left: 420px;
+  top: 300px;
+  left: -12px;
+}
+.f-form-content .day2 p {
+  position: absolute;
+  width: 980px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  top: 400px;
+  left: 400px;
+}
+.f-form-content .day3 {
+  position: relative;
+}
+.f-form-content .day3 h1 {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-bottom: 2px solid #000000;
+  font-weight: lighter;
+  font-size: 50px;
+  margin-left: 420px;
+  top: 500px;
+  left: -12px;
+}
+.f-form-content .day3 p {
+  position: absolute;
+  width: 980px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  top: 600px;
+  left: 400px;
+}
+
+.f {
+  max-width: 1280px;
+  height: 120px;
+  background-color: #79addc;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  margin-top: 800px;
+}
+.f .logoTwo {
+  width: 92px;
+  height: 42px;
+  border: solid 2px #ffffff;
+  position: relative;
+  margin-left: 6px;
+}
+.f .logoTwo p {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 24px;
+  margin-left: -1px;
+  top: 16px;
+  color: #ffffff;
+}
+.f .copy {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  font-size: 14px;
+  margin-left: 515px;
+  margin-top: 10px;
+  color: #ffffff;
+}
+.f .icons {
+  right: 200px;
+  font-size: 20px;
+  color: #000000;
+}
+.f .icons span {
+  margin-left: 10px;
+}
+
+.e-nav {
+  max-width: 980px;
+  min-height: 80px;
+  margin: 0 auto;
+  border-bottom: 2px solid #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  z-index: 99;
+}
+.e-nav .e-logo {
+  width: 92px;
+  height: 42px;
+  border: solid 2px #000000;
+  position: relative;
+}
+.e-nav .e-logo p {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 24px;
+  margin-left: 2px;
+  top: 16px;
+  color: #000000;
+}
+.e-nav .e-links a {
+  color: #000000;
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.e-nav .e-links span {
+  color: #79addc;
+  margin: 0 20px;
+}
+
+.e-banner {
+  max-width: 980px;
+  height: 300px;
+  background-color: blueviolet;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/tour/tour-06.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-06.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 60px auto 0 auto;
+  position: relative;
+}
+.e-banner h1 {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 65px;
+  font-weight: lighter;
+  margin-left: 20px;
+  top: 20px;
+  color: #ffffff;
+}
+.e-banner p {
+  position: absolute;
+  top: 270px;
+  left: 700px;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.e-box-container {
+  width: 980px;
+  height: 250px;
+  margin: 0 auto;
+  margin-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.e-box-container .e-boxOne {
+  width: 236px;
+  height: 304px;
+  background-color: darkmagenta;
+  background-image: url(../images/tour/tour-egypt/egypt-tour-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.e-box-container .e-boxTwo {
+  width: 236px;
+  height: 304px;
+  background-color: darkmagenta;
+  background-image: url(../images/tour/tour-egypt/egypt-tour-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.e-box-container .e-boxThree {
+  width: 236px;
+  height: 304px;
+  background-color: darkmagenta;
+  background-image: url(../images/tour/tour-egypt/egypt-tour-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.e-form-content .day1 {
+  position: relative;
+}
+.e-form-content .day1 h1 {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-bottom: 2px solid #000000;
+  font-weight: lighter;
+  font-size: 50px;
+  margin-left: 420px;
+  top: 100px;
+  left: -12px;
+}
+.e-form-content .day1 p {
+  position: absolute;
+  width: 980px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  top: 200px;
+  left: 400px;
+}
+.e-form-content .day2 {
+  position: relative;
+}
+.e-form-content .day2 h1 {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-bottom: 2px solid #000000;
+  font-weight: lighter;
+  font-size: 50px;
+  margin-left: 420px;
+  top: 300px;
+  left: -12px;
+}
+.e-form-content .day2 p {
+  position: absolute;
+  width: 980px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  top: 400px;
+  left: 400px;
+}
+.e-form-content .day3 {
+  position: relative;
+}
+.e-form-content .day3 h1 {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-bottom: 2px solid #000000;
+  font-weight: lighter;
+  font-size: 50px;
+  margin-left: 420px;
+  top: 500px;
+  left: -12px;
+}
+.e-form-content .day3 p {
+  position: absolute;
+  width: 980px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  top: 600px;
+  left: 400px;
+}
+
+.e {
+  max-width: 1280px;
+  height: 120px;
+  background-color: #79addc;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  margin-top: 800px;
+}
+.e .logoTwo {
+  width: 92px;
+  height: 42px;
+  border: solid 2px #ffffff;
+  position: relative;
+  margin-left: 6px;
+}
+.e .logoTwo p {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 24px;
+  margin-left: -1px;
+  top: 16px;
+  color: #ffffff;
+}
+.e .copy {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  font-size: 14px;
+  margin-left: 515px;
+  margin-top: 10px;
+  color: #ffffff;
+}
+.e .icons {
+  right: 200px;
+  font-size: 20px;
+  color: #000000;
+}
+.e .icons span {
+  margin-left: 10px;
+}
+
+.j-nav {
+  max-width: 980px;
+  min-height: 80px;
+  margin: 0 auto;
+  border-bottom: 2px solid #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  z-index: 99;
+}
+.j-nav .j-logo {
+  width: 92px;
+  height: 42px;
+  border: solid 2px #000000;
+  position: relative;
+}
+.j-nav .j-logo p {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 24px;
+  margin-left: 2px;
+  top: 16px;
+  color: #000000;
+}
+.j-nav .j-links a {
+  color: #000000;
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.j-nav .j-links span {
+  color: #79addc;
+  margin: 0 20px;
+}
+
+.j-banner {
+  max-width: 980px;
+  height: 300px;
+  background-color: blueviolet;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(/images/tour/tour-07.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/tour/tour-07.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 60px auto 0 auto;
+  position: relative;
+}
+.j-banner h1 {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 65px;
+  font-weight: lighter;
+  margin-left: 20px;
+  top: 20px;
+  color: #ffffff;
+}
+.j-banner p {
+  position: absolute;
+  top: 270px;
+  left: 700px;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.j-box-container {
+  width: 980px;
+  height: 250px;
+  margin: 0 auto;
+  margin-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.j-box-container .j-boxOne {
+  width: 236px;
+  height: 304px;
+  background-color: darkmagenta;
+  background-image: url(../images/tour/tour-japan/japan-tour-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.j-box-container .j-boxTwo {
+  width: 236px;
+  height: 304px;
+  background-color: darkmagenta;
+  background-image: url(../images/tour/tour-japan/japan-tour-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.j-box-container .j-boxThree {
+  width: 236px;
+  height: 304px;
+  background-color: darkmagenta;
+  background-image: url(../images/tour/tour-japan/japan-tour-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.j-form-content .day1 {
+  position: relative;
+}
+.j-form-content .day1 h1 {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-bottom: 2px solid #000000;
+  font-weight: lighter;
+  font-size: 50px;
+  margin-left: 420px;
+  top: 100px;
+  left: -12px;
+}
+.j-form-content .day1 p {
+  position: absolute;
+  width: 980px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  top: 200px;
+  left: 400px;
+}
+.j-form-content .day2 {
+  position: relative;
+}
+.j-form-content .day2 h1 {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-bottom: 2px solid #000000;
+  font-weight: lighter;
+  font-size: 50px;
+  margin-left: 420px;
+  top: 300px;
+  left: -12px;
+}
+.j-form-content .day2 p {
+  position: absolute;
+  width: 980px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  top: 400px;
+  left: 400px;
+}
+.j-form-content .day3 {
+  position: relative;
+}
+.j-form-content .day3 h1 {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-bottom: 2px solid #000000;
+  font-weight: lighter;
+  font-size: 50px;
+  margin-left: 420px;
+  top: 500px;
+  left: -12px;
+}
+.j-form-content .day3 p {
+  position: absolute;
+  width: 980px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  top: 600px;
+  left: 400px;
+}
+
+.j {
+  max-width: 1280px;
+  height: 120px;
+  background-color: #79addc;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  margin-top: 800px;
+}
+.j .logoTwo {
+  width: 92px;
+  height: 42px;
+  border: solid 2px #ffffff;
+  position: relative;
+  margin-left: 6px;
+}
+.j .logoTwo p {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 24px;
+  margin-left: -1px;
+  top: 16px;
+  color: #ffffff;
+}
+.j .copy {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  font-size: 14px;
+  margin-left: 515px;
+  margin-top: 10px;
+  color: #ffffff;
+}
+.j .icons {
+  right: 200px;
+  font-size: 20px;
+  color: #000000;
+}
+.j .icons span {
+  margin-left: 10px;
+}
+
+.can-nav {
+  max-width: 980px;
+  min-height: 80px;
+  margin: 0 auto;
+  border-bottom: 2px solid #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  z-index: 99;
+}
+.can-nav .can-logo {
+  width: 92px;
+  height: 42px;
+  border: solid 2px #000000;
+  position: relative;
+}
+.can-nav .can-logo p {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 24px;
+  margin-left: 2px;
+  top: 16px;
+  color: #000000;
+}
+.can-nav .can-links a {
+  color: #000000;
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.can-nav .can-links span {
+  color: #79addc;
+  margin: 0 20px;
+}
+
+.can-banner {
+  max-width: 980px;
+  height: 300px;
+  background-color: blueviolet;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/tour/tour-08.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-08.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 60px auto 0 auto;
+  position: relative;
+}
+.can-banner h1 {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 65px;
+  font-weight: lighter;
+  margin-left: 20px;
+  top: 20px;
+  color: #ffffff;
+}
+.can-banner p {
+  position: absolute;
+  top: 270px;
+  left: 700px;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.can-box-container {
+  width: 980px;
+  height: 250px;
+  margin: 0 auto;
+  margin-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.can-box-container .can-boxOne {
+  width: 236px;
+  height: 304px;
+  background-color: darkmagenta;
+  background-image: url(../images/tour/tour-canada/canada-tour-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.can-box-container .can-boxTwo {
+  width: 236px;
+  height: 304px;
+  background-color: darkmagenta;
+  background-image: url(../images/tour/tour-canada/canada-tour-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.can-box-container .can-boxThree {
+  width: 236px;
+  height: 304px;
+  background-color: darkmagenta;
+  background-image: url(../images/tour/tour-canada/canada-tour-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.can-form-content .day1 {
+  position: relative;
+}
+.can-form-content .day1 h1 {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-bottom: 2px solid #000000;
+  font-weight: lighter;
+  font-size: 50px;
+  margin-left: 420px;
+  top: 100px;
+  left: -12px;
+}
+.can-form-content .day1 p {
+  position: absolute;
+  width: 980px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  top: 200px;
+  left: 400px;
+}
+.can-form-content .day2 {
+  position: relative;
+}
+.can-form-content .day2 h1 {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-bottom: 2px solid #000000;
+  font-weight: lighter;
+  font-size: 50px;
+  margin-left: 420px;
+  top: 300px;
+  left: -12px;
+}
+.can-form-content .day2 p {
+  position: absolute;
+  width: 980px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  top: 400px;
+  left: 400px;
+}
+.can-form-content .day3 {
+  position: relative;
+}
+.can-form-content .day3 h1 {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-bottom: 2px solid #000000;
+  font-weight: lighter;
+  font-size: 50px;
+  margin-left: 420px;
+  top: 500px;
+  left: -12px;
+}
+.can-form-content .day3 p {
+  position: absolute;
+  width: 980px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  top: 600px;
+  left: 400px;
+}
+
+.can {
+  max-width: 1280px;
+  height: 120px;
+  background-color: #79addc;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  margin-top: 800px;
+}
+.can .logoTwo {
+  width: 92px;
+  height: 42px;
+  border: solid 2px #ffffff;
+  position: relative;
+  margin-left: 6px;
+}
+.can .logoTwo p {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 24px;
+  margin-left: -1px;
+  top: 16px;
+  color: #ffffff;
+}
+.can .copy {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  font-size: 14px;
+  margin-left: 515px;
+  margin-top: 10px;
+  color: #ffffff;
+}
+.can .icons {
+  right: 200px;
+  font-size: 20px;
+  color: #000000;
+}
+.can .icons span {
+  margin-left: 10px;
+}
+
+.uae-nav {
+  max-width: 980px;
+  min-height: 80px;
+  margin: 0 auto;
+  border-bottom: 2px solid #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  z-index: 99;
+}
+.uae-nav .uae-logo {
+  width: 92px;
+  height: 42px;
+  border: solid 2px #000000;
+  position: relative;
+}
+.uae-nav .uae-logo p {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 24px;
+  margin-left: 2px;
+  top: 16px;
+  color: #000000;
+}
+.uae-nav .uae-links a {
+  color: #000000;
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.uae-nav .uae-links span {
+  color: #79addc;
+  margin: 0 20px;
+}
+
+.uae-banner {
+  max-width: 980px;
+  height: 300px;
+  background-color: blueviolet;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/tour/tour-09.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-09.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 60px auto 0 auto;
+  position: relative;
+}
+.uae-banner h1 {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 65px;
+  font-weight: lighter;
+  margin-left: 20px;
+  top: 20px;
+  color: #ffffff;
+}
+.uae-banner p {
+  position: absolute;
+  top: 270px;
+  left: 700px;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.uae-box-container {
+  width: 980px;
+  height: 250px;
+  margin: 0 auto;
+  margin-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.uae-box-container .uae-boxOne {
+  width: 236px;
+  height: 304px;
+  background-color: darkmagenta;
+  background-image: url(../images/tour/tour-uae/uae-tour-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.uae-box-container .uae-boxTwo {
+  width: 236px;
+  height: 304px;
+  background-color: darkmagenta;
+  background-image: url(../images/tour/tour-uae/uae-tour-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.uae-box-container .uae-boxThree {
+  width: 236px;
+  height: 304px;
+  background-color: darkmagenta;
+  background-image: url(../images/tour/tour-uae/uae-tour-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.uae-form-content .day1 {
+  position: relative;
+}
+.uae-form-content .day1 h1 {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-bottom: 2px solid #000000;
+  font-weight: lighter;
+  font-size: 50px;
+  margin-left: 420px;
+  top: 100px;
+  left: -12px;
+}
+.uae-form-content .day1 p {
+  position: absolute;
+  width: 980px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  top: 200px;
+  left: 400px;
+}
+.uae-form-content .day2 {
+  position: relative;
+}
+.uae-form-content .day2 h1 {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-bottom: 2px solid #000000;
+  font-weight: lighter;
+  font-size: 50px;
+  margin-left: 420px;
+  top: 300px;
+  left: -12px;
+}
+.uae-form-content .day2 p {
+  position: absolute;
+  width: 980px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  top: 400px;
+  left: 400px;
+}
+.uae-form-content .day3 {
+  position: relative;
+}
+.uae-form-content .day3 h1 {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-bottom: 2px solid #000000;
+  font-weight: lighter;
+  font-size: 50px;
+  margin-left: 420px;
+  top: 500px;
+  left: -12px;
+}
+.uae-form-content .day3 p {
+  position: absolute;
+  width: 980px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  top: 600px;
+  left: 400px;
+}
+
+.uae {
+  max-width: 1280px;
+  height: 120px;
+  background-color: #79addc;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  margin-top: 800px;
+}
+.uae .logoTwo {
+  width: 92px;
+  height: 42px;
+  border: solid 2px #ffffff;
+  position: relative;
+  margin-left: 6px;
+}
+.uae .logoTwo p {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 24px;
+  margin-left: -1px;
+  top: 16px;
+  color: #ffffff;
+}
+.uae .copy {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  font-size: 14px;
+  margin-left: 515px;
+  margin-top: 10px;
+  color: #ffffff;
+}
+.uae .icons {
+  right: 200px;
+  font-size: 20px;
+  color: #000000;
+}
+.uae .icons span {
+  margin-left: 10px;
+}
+
+.sp-nav {
+  max-width: 980px;
+  min-height: 80px;
+  margin: 0 auto;
+  border-bottom: 2px solid #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  z-index: 99;
+}
+.sp-nav .sp-logo {
+  width: 92px;
+  height: 42px;
+  border: solid 2px #000000;
+  position: relative;
+}
+.sp-nav .sp-logo p {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 24px;
+  margin-left: 2px;
+  top: 16px;
+  color: #000000;
+}
+.sp-nav .sp-links a {
+  color: #000000;
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.sp-nav .sp-links span {
+  color: #79addc;
+  margin: 0 20px;
+}
+
+.sp-header {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  margin-left: 400px;
+  margin-top: 50px;
+}
+.sp-header h1 {
+  margin-bottom: 4px;
+  font-weight: lighter;
+}
+.sp-header hr {
+  width: 200px;
+  height: 4px;
+  background-color: #000000;
+  margin-bottom: 16px;
+}
+.sp-header .sp-box {
+  max-width: 722px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  margin-bottom: 37px;
+}
+.sp-header .sp-box .sp-image {
+  width: 199px;
+  height: 287px;
+  overflow: hidden;
+  margin-right: 21px;
+}
+.sp-header .sp-box .sp-image img {
+  width: 100%;
+}
+.sp-header .sp-box .barttl h3 {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
+  font-weight: lighter;
+  left: 240px;
+}
+.sp-header .sp-box .barttl hr {
+  position: absolute;
+  width: 200px;
+  height: 4px;
+  background-color: #000000;
+  top: 40px;
+  left: 240px;
+}
+.sp-header .sp-box .sp-quote {
+  position: absolute;
+  width: 290px;
+  height: 131px;
+  top: 60px;
+  left: 240px;
+}
+.sp-header .sp-box p {
+  width: 290px;
+  font-size: 16px;
+}
+.sp-header .sp-box .bar-button {
+  padding: 10px 24px;
+  border-radius: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+  margin-left: 240px;
+  margin-top: 250px;
+  position: absolute;
+  color: #ffffff;
+  background-color: #79addc;
+  border-color: #79addc;
+}
+.sp-header .bt-box {
+  max-width: 722px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  margin-bottom: 37px;
+}
+.sp-header .bt-box .bt-image {
+  width: 199px;
+  height: 287px;
+  overflow: hidden;
+  margin-right: 21px;
+}
+.sp-header .bt-box .bt-image img {
+  width: 100%;
+}
+.sp-header .bt-box .btttl h3 {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
+  font-weight: lighter;
+  left: 240px;
+}
+.sp-header .bt-box .btttl hr {
+  position: absolute;
+  width: 200px;
+  height: 4px;
+  background-color: #000000;
+  top: 40px;
+  left: 240px;
+}
+.sp-header .bt-box .bt-quote {
+  position: absolute;
+  width: 290px;
+  height: 131px;
+  top: 60px;
+  left: 240px;
+}
+.sp-header .bt-box p {
+  width: 290px;
+  font-size: 16px;
+}
+.sp-header .bt-box .bt-button {
+  padding: 10px 24px;
+  border-radius: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+  margin-left: 240px;
+  margin-top: 250px;
+  position: absolute;
+  color: #ffffff;
+  background-color: #79addc;
+  border-color: #79addc;
+}
+
+.sp-footer {
+  max-width: 2200px;
+  height: 120px;
+  background-color: #79addc;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  margin-top: 100px;
+  margin-left: -390px;
+}
+.sp-footer .logoFour {
+  width: 92px;
+  height: 42px;
+  border: solid 2px #ffffff;
+  position: absolute;
+  margin-left: 100px;
+}
+.sp-footer .logoFour p {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 24px;
+  margin-left: -1px;
+  top: 16px;
+  color: #ffffff;
+}
+.sp-footer .sp-copy {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  font-size: 14px;
+  margin-left: 740px;
+  margin-top: 10px;
+  color: #ffffff;
+}
+.sp-footer .icons {
+  position: absolute;
+  left: 1500px;
+  font-size: 26px;
+  color: #ffffff;
+  width: 180px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.blog-nav {
+  max-width: 980px;
+  min-height: 80px;
+  margin: 0 auto;
+  border-bottom: 2px solid #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  z-index: 99;
+}
+.blog-nav .blog-logo {
+  width: 92px;
+  height: 42px;
+  border: solid 2px #000000;
+  position: relative;
+}
+.blog-nav .blog-logo p {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 24px;
+  margin-left: 2px;
+  top: 16px;
+  color: #000000;
+}
+.blog-nav .blog-links a {
+  color: #000000;
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.blog-nav .blog-links span {
+  color: #79addc;
+  margin: 0 20px;
+}
+
+.blog-header {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
+  font-weight: lighter;
+  margin-left: 400px;
+  margin-top: 50px;
+}
+.blog-header h3 {
+  margin-bottom: 4px;
+  font-weight: lighter;
+}
+.blog-header hr {
+  width: 60px;
+  height: 4px;
+  background-color: #000000;
+  margin-bottom: 16px;
+}
+
+.blog-01 {
+  position: relative;
+  width: 980px;
+  height: 400px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.blog-01 .date-box {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background-color: #79addc;
+}
+.blog-01 .date-box .blog-day-01 {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  color: #ffffff;
+  left: 16px;
+  top: 6px;
+}
+.blog-01 .date-box .blog-mon-01 {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 12px;
+  font-weight: lighter;
+  color: #ffffff;
+  left: 20px;
+  top: 30px;
+}
+.blog-01 .blog-img-01 {
+  position: absolute;
+  width: 900px;
+  height: 259px;
+  background-color: blue;
+  left: 80px;
+  background-image: url(../images/blog.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.blog-01 .blog-ttl-01 h4 {
+  position: absolute;
+  top: 270px;
+  left: 80px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+  font-weight: lighter;
+}
+.blog-01 .blog-ttl-01 p {
+  position: absolute;
+  width: 380px;
+  height: 64px;
+  top: 300px;
+  left: 80px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: lighter;
+  font-size: 13px;
+  color: #79addc;
+}
+
+.blog-02 {
+  position: relative;
+  width: 980px;
+  height: 400px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 60px;
+}
+.blog-02 .date-box {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background-color: #79addc;
+}
+.blog-02 .date-box .blog-day-02 {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  color: #ffffff;
+  left: 16px;
+  top: 6px;
+}
+.blog-02 .date-box .blog-mon-02 {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 12px;
+  font-weight: lighter;
+  color: #ffffff;
+  left: 22px;
+  top: 30px;
+}
+.blog-02 .blog-img-02 {
+  position: absolute;
+  width: 900px;
+  height: 259px;
+  background-color: blue;
+  left: 80px;
+  background-image: url(../images/blog.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.blog-02 .blog-ttl-02 h4 {
+  position: absolute;
+  top: 270px;
+  left: 80px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+  font-weight: lighter;
+}
+.blog-02 .blog-ttl-02 p {
+  position: absolute;
+  width: 380px;
+  height: 64px;
+  top: 300px;
+  left: 80px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: lighter;
+  font-size: 13px;
+  color: #79addc;
+}
+
+.blog {
+  max-width: 100%;
+  height: 120px;
+  background-color: #79addc;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  margin-top: 200px;
+}
+.blog .blog-logo {
+  width: 92px;
+  height: 42px;
+  border: solid 2px #ffffff;
+  position: relative;
+  margin-left: 120px;
+}
+.blog .blog-logo p {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 24px;
+  margin-left: -1px;
+  top: 16px;
+  color: #ffffff;
+}
+.blog .copy {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  font-size: 14px;
+  left: 750px;
+  margin-top: 30px;
+  color: #ffffff;
+}
+.blog .icons {
+  position: absolute;
+  left: 1500px;
+  top: 50px;
+  font-size: 26px;
+  color: #ffffff;
+  width: 180px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.contact-nav {
+  max-width: 980px;
+  min-height: 80px;
+  margin: 0 auto;
+  border-bottom: 2px solid #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  z-index: 99;
+}
+.contact-nav .contact-logo {
+  width: 92px;
+  height: 42px;
+  border: solid 2px #000000;
+  position: relative;
+}
+.contact-nav .contact-logo p {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 24px;
+  margin-left: 2px;
+  top: 16px;
+  color: #000000;
+}
+.contact-nav .contact-links a {
+  color: #000000;
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.contact-nav .contact-links span {
+  color: #79addc;
+  margin: 0 20px;
+}
+
+.contact-header {
+  position: relative;
+  width: 980px;
+  margin: 0 auto;
+  top: 60px;
+}
+.contact-header h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
+  font-weight: lighter;
+}
+.contact-header hr {
+  width: 140px;
+  height: 4px;
+  background-color: #000000;
+}
+
+.con-box {
+  position: relative;
+  width: 980px;
+  height: 442px;
+  top: 60px;
+}
+.con-box .con-img {
+  position: absolute;
+  width: 400px;
+  height: 442px;
+  background-color: antiquewhite;
+  background-image: url(../images/map.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.con-box .name {
+  position: absolute;
+}
+.con-box .name input {
+  position: absolute;
+  width: 529px;
+  height: 60px;
+  left: 452px;
+  fill: #F5F5F5;
+}
+.con-box .email {
+  position: absolute;
+}
+.con-box .email input {
+  position: absolute;
+  width: 529px;
+  height: 60px;
+  left: 452px;
+  top: 80px;
+}
+.con-box .company {
+  position: absolute;
+}
+.con-box .company input {
+  position: absolute;
+  width: 529px;
+  height: 60px;
+  left: 452px;
+  top: 160px;
+}
+.con-box .message {
+  position: absolute;
+}
+.con-box .message input {
+  position: absolute;
+  width: 529px;
+  height: 199px;
+  left: 452px;
+  top: 244px;
+}
+.con-box button {
+  position: absolute;
+  background-color: #79addc;
+  border: none;
+  padding: 15px 32px;
+  top: 460px;
+  left: 452px;
+  color: #ffffff;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.contact-info {
+  position: relative;
+  width: 400px;
+  height: 161px;
+  top: 160px;
+  left: 404px;
+}
+.contact-info p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.contact {
+  max-width: 100%;
+  height: 120px;
+  background-color: #79addc;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  margin-top: 280px;
+}
+.contact .contact-logo {
+  width: 92px;
+  height: 42px;
+  border: solid 2px #ffffff;
+  position: relative;
+  margin-left: 120px;
+}
+.contact .contact-logo p {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 24px;
+  margin-left: -1px;
+  top: 16px;
+  color: #ffffff;
+}
+.contact .copy {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  font-size: 14px;
+  left: 750px;
+  margin-top: 30px;
+  color: #ffffff;
+}
+.contact .icons {
+  position: absolute;
+  left: 1500px;
+  top: 50px;
+  font-size: 26px;
+  color: #ffffff;
+  width: 180px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}

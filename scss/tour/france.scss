@@ -1,0 +1,272 @@
+// begin navigation
+.f-nav {
+    max-width: $site-width;
+    min-height: 80px;
+    margin: 0 auto;
+    // background-color: $site-black;
+    border-bottom: 2px solid $site-black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 99;
+
+
+    .f-logo {
+        width: 92px;
+        height: 42px;
+        // background-color: blueviolet;
+        border: solid 2px $site-black;
+        position: relative;
+
+        p {
+            position: absolute;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            // font-stretch: semi-expanded;
+            font-size: 24px;
+            margin-left: 2px;
+            top: 16px;
+            color: $site-black;
+            
+        }
+    }
+
+    .f-links {
+        a {
+            color: $site-black;
+            text-decoration: none;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        span {
+            color: $site-blue;
+            margin: 0 20px;
+        }
+    }
+}
+// end navigation
+
+// begin banner
+.f-banner {
+    max-width: $site-width;
+    height: 300px;
+    background-color: blueviolet;
+    background-image: linear-gradient(
+        rgba($site-black, 0.4),
+        rgba($site-black, 0.4)
+    )
+    , url(/images/tour/tour-05.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 60px auto 0 auto;
+    position: relative;
+
+    h1 { 
+        position: absolute;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 65px;
+        font-weight: lighter;
+        margin-left: 20px;
+        top: 20px;
+        color: $site-white;
+    }
+
+    p {
+        position: absolute;
+        top: 270px;
+        left: 700px;
+        font-size: 25px;
+        color: $site-white;
+
+    }
+}
+// end banner
+
+// begin box-container
+.f-box-container {
+    width: $site-width;
+    height: 250px;
+    // background-color: darkkhaki;
+    margin: 0 auto;
+    // position: absolute;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    
+
+    .f-boxOne {
+        width: 236px;
+        height: 304px;
+        background-color: darkmagenta;
+        background-image: url(../images/tour/tour-france/france-tour-01.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+
+
+    .f-boxTwo {
+        width: 236px;
+        height: 304px;
+        background-color: darkmagenta;
+        background-image: url(../images/tour/tour-france/france-tour-02.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+
+    .f-boxThree {
+        width: 236px;
+        height: 304px;
+        background-color: darkmagenta;
+        background-image: url(../images/tour/tour-france/france-tour-03.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative; 
+    }
+}
+// end box container 
+
+// begin form-content
+.f-form-content {
+    
+
+    .day1 {
+        position: relative;
+
+       h1 {
+        position: absolute;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        border-bottom: 2px solid $site-black;
+        // width: 100px;
+        font-weight: lighter;
+        font-size: 50px;
+        margin-left: 420px;
+        top: 100px;
+        left: -12px;
+        }
+
+        p {
+        position: absolute;
+        width: $site-width;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        top: 200px;
+        left: 400px;
+
+        } 
+    }
+
+    .day2 {
+        position: relative;
+
+       h1 {
+        position: absolute;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        border-bottom: 2px solid $site-black;
+        // width: 100px;
+        font-weight: lighter;
+        font-size: 50px;
+        margin-left: 420px;
+        top: 300px;
+        left: -12px;
+        }
+
+        p {
+        position: absolute;
+        width: $site-width;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        top: 400px;
+        left: 400px;
+
+        } 
+    }
+
+    .day3 {
+        position: relative;
+
+       h1 {
+        position: absolute;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        border-bottom: 2px solid $site-black;
+        // width: 100px;
+        font-weight: lighter;
+        font-size: 50px;
+        margin-left: 420px;
+        top: 500px;
+        left: -12px;
+        }
+
+        p {
+        position: absolute;
+        width: $site-width;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        top: 600px;
+        left: 400px;
+
+        } 
+    }
+
+    
+}
+// end form content
+
+// begin footer
+.f {
+    max-width: $banner-footer-width;
+    height: $footer-height;
+    background-color: $site-blue;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 800px;
+    
+
+    .logoTwo {
+        width: 92px;
+        height: 42px;
+        // background-color: blueviolet;
+        border: solid 2px $site-white;
+        position: relative;
+        margin-left: 6px;
+
+        p {
+            position: absolute;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            // font-stretch: semi-expanded;
+            font-size: 24px;
+            margin-left: -1px;
+            top: 16px;
+            color: $site-white;
+            
+        } 
+    }
+
+    .copy {
+        position: absolute;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        font-size: 14px;
+        margin-left: 515px;
+        margin-top: 10px;
+        color: $site-white;
+    }
+
+    .icons {
+        // position: absolute;
+        right: 200px;
+        font-size: 20px;
+        color: $site-black;
+
+
+        span {
+            margin-left: 10px;
+           }
+    }
+}
+// end footer

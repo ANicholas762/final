@@ -1,0 +1,219 @@
+// This area is for the navigation 
+
+.about-nav {
+    max-width: 980px;
+    min-height: 80px;
+    margin: 0 auto;
+    // background-color: $site-black;
+    border-bottom: 2px solid #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 99;
+
+
+    .about-logo {
+        width: 92px;
+        height: 42px;
+        // background-color: blueviolet;
+        border: solid 2px #000000;
+        position: relative;
+
+        p {
+            position: absolute;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            // font-stretch: semi-expanded;
+            font-size: 24px;
+            margin-left: 2px;
+            top: 16px;
+            color: #000000;
+            
+        }
+    }
+
+    .about-links {
+        a {
+            color: #000000;
+            text-decoration: none;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        span {
+            color: #79addc;
+            margin: 0 20px;
+        }
+    }
+}
+
+// This area is for the body 
+
+.about-header {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-left: 380px;
+    margin-top: 100px;
+
+    h1 {
+        margin-bottom: 4px;
+    }
+
+    hr {
+        width: 97px;
+        height: 2px;
+        background-color: #000000;
+        margin-bottom: 16px;
+    }
+
+    p {
+        width: 980px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 16px;
+    }
+
+    .about-client-quotes {
+        margin-top: 110px;
+
+        .about-client-title {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 40px;
+            font-weight: lighter;
+            margin-bottom: 4px;
+        }
+
+        hr {
+            width: 220px;
+        }
+    }
+
+    .client-box {
+        max-width: 722px;
+        // background-color: antiquewhite;
+        display: flex;
+        position: relative;
+        margin-bottom: 37px;
+
+        .client-image {
+            width: 260px;
+            height: 150px;
+            overflow: hidden;
+            margin-right: 21px;
+
+        img {
+            width: 100%;
+        }
+        }
+
+        .client-quote {
+            width: 440px;
+            // background-color: blueviolet;
+            margin-bottom: 20px;
+        }
+
+        p {
+            width: 300px;
+            font-size: 16px;
+        }
+
+        .client-name {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            color: #79addc;
+        }
+    }
+
+    .client-box-guy {
+        max-width: 722px;
+        // background-color: antiquewhite;
+        display: flex;
+        position: absolute;
+        margin-bottom: 370px;
+
+        .client-image-guy {
+            width: 260px;
+            height: 150px;
+            overflow: hidden;
+            margin-right: 21px;
+
+        img {
+            width: 100%;
+        }
+        }
+
+        .client-quote-guy {
+            width: 440px;
+            // background-color: blueviolet;
+            margin-bottom: 20px;
+        }
+
+        p {
+            width: 300px;
+            font-size: 16px;
+        }
+
+        .client-name-guy {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            color: #79addc;
+        }
+    }
+
+}
+
+// This area is for the footer
+
+.about {
+    max-width: 2200px;
+    height: 120px;
+    background-color: #79addc;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 300px;
+    margin-left: -390px;
+    
+
+    .logoThree {
+        width: 92px;
+        height: 42px;
+        // background-color: blueviolet;
+        border: solid 2px #ffffff;
+        position: absolute;
+        margin-left: 100px;
+
+        p {
+            position: absolute;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            // font-stretch: semi-expanded;
+            font-size: 24px;
+            margin-left: -1px;
+            top: 16px;
+            color: #ffffff;
+            
+        } 
+    }
+
+    .copy {
+        position: absolute;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        font-size: 14px;
+        margin-left: 400px;
+        margin-top: 10px;
+        color: #ffffff;
+    }
+
+    .icons {
+        position: absolute;
+        left: 1500px;
+        font-size: 26px;
+        color: #ffffff;
+        width: 180px;
+        justify-content: space-around;
+    }
+}

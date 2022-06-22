@@ -1,0 +1,272 @@
+// begin navigation
+.j-nav {
+    max-width: 980px;
+    min-height: 80px;
+    margin: 0 auto;
+    // background-color: $site-black;
+    border-bottom: 2px solid #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 99;
+
+
+    .j-logo {
+        width: 92px;
+        height: 42px;
+        // background-color: blueviolet;
+        border: solid 2px #000000;
+        position: relative;
+
+        p {
+            position: absolute;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            // font-stretch: semi-expanded;
+            font-size: 24px;
+            margin-left: 2px;
+            top: 16px;
+            color: #000000;
+            
+        }
+    }
+
+    .j-links {
+        a {
+            color: #000000;
+            text-decoration: none;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        span {
+            color: #79addc;
+            margin: 0 20px;
+        }
+    }
+}
+// end navigation
+
+// begin banner
+.j-banner {
+    max-width: 980px;
+    height: 300px;
+    background-color: blueviolet;
+    background-image: linear-gradient(
+        rgba(#000000, 0.4),
+        rgba(#000000, 0.4)
+    )
+    , url(/images/tour/tour-07.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 60px auto 0 auto;
+    position: relative;
+
+    h1 { 
+        position: absolute;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 65px;
+        font-weight: lighter;
+        margin-left: 20px;
+        top: 20px;
+        color: #ffffff;
+    }
+
+    p {
+        position: absolute;
+        top: 270px;
+        left: 700px;
+        font-size: 25px;
+        color: #ffffff;
+
+    }
+}
+// end banner
+
+// begin box-container
+.j-box-container {
+    width: 980px;
+    height: 250px;
+    // background-color: darkkhaki;
+    margin: 0 auto;
+    // position: absolute;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    
+
+    .j-boxOne {
+        width: 236px;
+        height: 304px;
+        background-color: darkmagenta;
+        background-image: url(../images/tour/tour-japan/japan-tour-01.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+
+
+    .j-boxTwo {
+        width: 236px;
+        height: 304px;
+        background-color: darkmagenta;
+        background-image: url(../images/tour/tour-japan/japan-tour-02.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+
+    .j-boxThree {
+        width: 236px;
+        height: 304px;
+        background-color: darkmagenta;
+        background-image: url(../images/tour/tour-japan/japan-tour-03.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative; 
+    }
+}
+// end box container 
+
+// begin form-content
+.j-form-content {
+    
+
+    .day1 {
+        position: relative;
+
+       h1 {
+        position: absolute;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        border-bottom: 2px solid #000000;
+        // width: 100px;
+        font-weight: lighter;
+        font-size: 50px;
+        margin-left: 420px;
+        top: 100px;
+        left: -12px;
+        }
+
+        p {
+        position: absolute;
+        width: 980px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        top: 200px;
+        left: 400px;
+
+        } 
+    }
+
+    .day2 {
+        position: relative;
+
+       h1 {
+        position: absolute;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        border-bottom: 2px solid #000000;
+        // width: 100px;
+        font-weight: lighter;
+        font-size: 50px;
+        margin-left: 420px;
+        top: 300px;
+        left: -12px;
+        }
+
+        p {
+        position: absolute;
+        width: 980px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        top: 400px;
+        left: 400px;
+
+        } 
+    }
+
+    .day3 {
+        position: relative;
+
+       h1 {
+        position: absolute;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        border-bottom: 2px solid #000000;
+        // width: 100px;
+        font-weight: lighter;
+        font-size: 50px;
+        margin-left: 420px;
+        top: 500px;
+        left: -12px;
+        }
+
+        p {
+        position: absolute;
+        width: 980px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        top: 600px;
+        left: 400px;
+
+        } 
+    }
+
+    
+}
+// end form content
+
+// begin footer
+.j {
+    max-width: 1280px;
+    height: 120px;
+    background-color: #79addc;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 800px;
+    
+
+    .logoTwo {
+        width: 92px;
+        height: 42px;
+        // background-color: blueviolet;
+        border: solid 2px #ffffff;
+        position: relative;
+        margin-left: 6px;
+
+        p {
+            position: absolute;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            // font-stretch: semi-expanded;
+            font-size: 24px;
+            margin-left: -1px;
+            top: 16px;
+            color: #ffffff;
+            
+        } 
+    }
+
+    .copy {
+        position: absolute;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        font-size: 14px;
+        margin-left: 515px;
+        margin-top: 10px;
+        color: #ffffff;
+    }
+
+    .icons {
+        // position: absolute;
+        right: 200px;
+        font-size: 20px;
+        color: #000000;
+
+
+        span {
+            margin-left: 10px;
+           }
+    }
+}
+// end footer

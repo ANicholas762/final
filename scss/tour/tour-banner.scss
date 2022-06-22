@@ -1,0 +1,25 @@
+.tour-banner {
+    max-width: 1280px;
+    height: 200px;
+    background-color: blueviolet;
+    background-image: linear-gradient(
+        rgba(#000000, 0.4),
+        rgba(#000000, 0.4)
+    )
+    , url(/images/tour/tours-header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 60px auto 0 auto;
+    position: relative;
+
+    h1 { 
+        position: absolute;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 65px;
+        font-weight: lighter;
+        margin-left: 550px;
+        top: 60px;
+        color: #ffffff;
+    }
+}

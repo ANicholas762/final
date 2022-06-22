@@ -1,0 +1,222 @@
+.sp-nav {
+  max-width: 980px;
+  min-height: 80px;
+  margin: 0 auto;
+  border-bottom: 2px solid #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  z-index: 99;
+}
+.sp-nav .sp-logo {
+  width: 92px;
+  height: 42px;
+  border: solid 2px #000000;
+  position: relative;
+}
+.sp-nav .sp-logo p {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 24px;
+  margin-left: 2px;
+  top: 16px;
+  color: #000000;
+}
+.sp-nav .sp-links a {
+  color: #000000;
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.sp-nav .sp-links span {
+  color: #79addc;
+  margin: 0 20px;
+}
+
+.sp-header {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  margin-left: 400px;
+  margin-top: 50px;
+}
+.sp-header h1 {
+  margin-bottom: 4px;
+  font-weight: lighter;
+}
+.sp-header hr {
+  width: 200px;
+  height: 4px;
+  background-color: #000000;
+  margin-bottom: 16px;
+}
+.sp-header .sp-box {
+  max-width: 722px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  margin-bottom: 37px;
+}
+.sp-header .sp-box .sp-image {
+  width: 199px;
+  height: 287px;
+  overflow: hidden;
+  margin-right: 21px;
+}
+.sp-header .sp-box .sp-image img {
+  width: 100%;
+}
+.sp-header .sp-box .barttl h3 {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
+  font-weight: lighter;
+  left: 240px;
+}
+.sp-header .sp-box .barttl hr {
+  position: absolute;
+  width: 200px;
+  height: 4px;
+  background-color: #000000;
+  top: 40px;
+  left: 240px;
+}
+.sp-header .sp-box .sp-quote {
+  position: absolute;
+  width: 290px;
+  height: 131px;
+  top: 60px;
+  left: 240px;
+}
+.sp-header .sp-box p {
+  width: 290px;
+  font-size: 16px;
+}
+.sp-header .sp-box .bar-button {
+  padding: 10px 24px;
+  border-radius: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+  margin-left: 240px;
+  margin-top: 250px;
+  position: absolute;
+  color: #ffffff;
+  background-color: #79addc;
+  border-color: #79addc;
+}
+.sp-header .bt-box {
+  max-width: 722px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  margin-bottom: 37px;
+}
+.sp-header .bt-box .bt-image {
+  width: 199px;
+  height: 287px;
+  overflow: hidden;
+  margin-right: 21px;
+}
+.sp-header .bt-box .bt-image img {
+  width: 100%;
+}
+.sp-header .bt-box .btttl h3 {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
+  font-weight: lighter;
+  left: 240px;
+}
+.sp-header .bt-box .btttl hr {
+  position: absolute;
+  width: 200px;
+  height: 4px;
+  background-color: #000000;
+  top: 40px;
+  left: 240px;
+}
+.sp-header .bt-box .bt-quote {
+  position: absolute;
+  width: 290px;
+  height: 131px;
+  top: 60px;
+  left: 240px;
+}
+.sp-header .bt-box p {
+  width: 290px;
+  font-size: 16px;
+}
+.sp-header .bt-box .bt-button {
+  padding: 10px 24px;
+  border-radius: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+  margin-left: 240px;
+  margin-top: 250px;
+  position: absolute;
+  color: #ffffff;
+  background-color: #79addc;
+  border-color: #79addc;
+}
+
+.sp-footer {
+  max-width: 2200px;
+  height: 120px;
+  background-color: #79addc;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  margin-top: 100px;
+  margin-left: -390px;
+}
+.sp-footer .logoFour {
+  width: 92px;
+  height: 42px;
+  border: solid 2px #ffffff;
+  position: absolute;
+  margin-left: 100px;
+}
+.sp-footer .logoFour p {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 24px;
+  margin-left: -1px;
+  top: 16px;
+  color: #ffffff;
+}
+.sp-footer .sp-copy {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  font-size: 14px;
+  margin-left: 740px;
+  margin-top: 10px;
+  color: #ffffff;
+}
+.sp-footer .icons {
+  position: absolute;
+  left: 1500px;
+  font-size: 26px;
+  color: #ffffff;
+  width: 180px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}

@@ -1,0 +1,137 @@
+.box-container {
+  width: 980px;
+  height: 250px;
+  margin: 0 auto;
+  margin-top: -60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.box-container .boxOne {
+  width: 236px;
+  height: 304px;
+  background-color: darkmagenta;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4))), url(../images/tour/tour-01.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4) rgba(0, 0, 0, 0.4)), url(../images/tour/tour-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.box-container .boxOne h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: lighter;
+  font-size: 45px;
+  color: #ffffff;
+  position: absolute;
+  margin-top: 45px;
+  left: 55px;
+}
+.box-container .boxOne p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: lighter;
+  color: #ffffff;
+  font-size: 20px;
+  position: absolute;
+  margin-top: 100px;
+  left: 70px;
+}
+.box-container .boxOne a {
+  padding: 10px 24px;
+  border-radius: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+  margin-left: 60px;
+  margin-top: 200px;
+  position: absolute;
+  color: #ffffff;
+  background-color: #79addc;
+  border-color: #79addc;
+}
+.box-container .boxTwo {
+  width: 236px;
+  height: 304px;
+  background-color: darkmagenta;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4))), url(../images/tour/tour-02.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4) rgba(0, 0, 0, 0.4)), url(../images/tour/tour-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.box-container .boxTwo h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: lighter;
+  font-size: 45px;
+  color: #ffffff;
+  position: absolute;
+  margin-top: 45px;
+  left: 65px;
+}
+.box-container .boxTwo p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: lighter;
+  color: #ffffff;
+  font-size: 20px;
+  position: absolute;
+  margin-top: 100px;
+  left: 70px;
+}
+.box-container .boxTwo a {
+  padding: 10px 24px;
+  border-radius: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+  margin-left: 60px;
+  margin-top: 200px;
+  position: absolute;
+  color: #ffffff;
+  background-color: #79addc;
+  border-color: #79addc;
+}
+.box-container .boxThree {
+  width: 236px;
+  height: 304px;
+  background-color: darkmagenta;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4))), url(../images/tour/tour-03.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4) rgba(0, 0, 0, 0.4)), url(../images/tour/tour-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.box-container .boxThree h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: lighter;
+  font-size: 45px;
+  color: #ffffff;
+  position: absolute;
+  margin-top: 45px;
+  left: 10px;
+}
+.box-container .boxThree p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: lighter;
+  color: #ffffff;
+  font-size: 20px;
+  position: absolute;
+  margin-top: 100px;
+  left: 65px;
+}
+.box-container .boxThree a {
+  padding: 10px 24px;
+  border-radius: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+  margin-left: 60px;
+  margin-top: 200px;
+  position: absolute;
+  color: #ffffff;
+  background-color: #79addc;
+  border-color: #79addc;
+}

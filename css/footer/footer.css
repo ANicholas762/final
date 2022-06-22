@@ -1,0 +1,51 @@
+.home {
+  max-width: 100%;
+  height: 120px;
+  background-color: #79addc;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  margin-top: 560px;
+}
+.home .logo {
+  width: 92px;
+  height: 42px;
+  border: solid 2px #ffffff;
+  position: relative;
+  margin-left: 120px;
+}
+.home .logo p {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 24px;
+  margin-left: -1px;
+  top: 16px;
+  color: #ffffff;
+}
+.home .copy {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  font-size: 14px;
+  left: 750px;
+  margin-top: 30px;
+  color: #ffffff;
+}
+.home .icons {
+  position: absolute;
+  left: 1500px;
+  top: 50px;
+  font-size: 26px;
+  color: #ffffff;
+  width: 180px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
