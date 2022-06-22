@@ -1708,7 +1708,7 @@ nav .links span {
   width: 236px;
   height: 304px;
   background-color: darkmagenta;
-  background-image: url(/images/tour/tour-aus/aus-tour-01.jpg);
+  background-image: url(../images/tour/tour-aus/aus-tour-01.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1718,7 +1718,7 @@ nav .links span {
   width: 236px;
   height: 304px;
   background-color: darkmagenta;
-  background-image: url(/images/tour/tour-aus/aus-tour-02.jpg);
+  background-image: url(../images/tour/tour-aus/aus-tour-02.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1728,7 +1728,7 @@ nav .links span {
   width: 236px;
   height: 304px;
   background-color: darkmagenta;
-  background-image: url(/images/tour/tour-aus/aus-tour-03.jpg);
+  background-image: url(../images/tour/tour-aus/aus-tour-03.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
