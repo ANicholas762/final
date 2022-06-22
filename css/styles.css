@@ -541,9 +541,10 @@ nav .links span {
   height: 150px;
   overflow: hidden;
   margin-right: 21px;
-}
-.about-header .client-box .client-image img {
-  width: 100%;
+  background-image: url(../images/about-client-01.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .about-header .client-box .client-quote {
   width: 440px;
@@ -572,9 +573,10 @@ nav .links span {
   height: 150px;
   overflow: hidden;
   margin-right: 21px;
-}
-.about-header .client-box-guy .client-image-guy img {
-  width: 100%;
+  background-image: url(../images/about-client-02.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .about-header .client-box-guy .client-quote-guy {
   width: 440px;
@@ -740,8 +742,8 @@ nav .links span {
   max-width: 1280px;
   height: 200px;
   background-color: blueviolet;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(/images/tour/tours-header.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/tour/tours-header.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/tour/tours-header.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tours-header.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

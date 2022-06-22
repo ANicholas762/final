@@ -99,10 +99,10 @@
             height: 150px;
             overflow: hidden;
             margin-right: 21px;
-
-        img {
-            width: 100%;
-        }
+            background-image: url(../images/about-client-01.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
         }
 
         .client-quote {
@@ -136,10 +136,10 @@
             height: 150px;
             overflow: hidden;
             margin-right: 21px;
-
-        img {
-            width: 100%;
-        }
+            background-image: url(../images/about-client-02.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
         }
 
         .client-quote-guy {

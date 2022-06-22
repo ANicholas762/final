@@ -85,9 +85,10 @@
   height: 150px;
   overflow: hidden;
   margin-right: 21px;
-}
-.about-header .client-box .client-image img {
-  width: 100%;
+  background-image: url(../images/about-client-01.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .about-header .client-box .client-quote {
   width: 440px;
@@ -116,9 +117,10 @@
   height: 150px;
   overflow: hidden;
   margin-right: 21px;
-}
-.about-header .client-box-guy .client-image-guy img {
-  width: 100%;
+  background-image: url(../images/about-client-02.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .about-header .client-box-guy .client-quote-guy {
   width: 440px;
