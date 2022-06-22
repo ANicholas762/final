@@ -192,4 +192,24 @@
     }
 }
 
+@media (max-width: 1140px) {
+    .form-content .top-boxes {
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+    }
+  }
+
+  @media (max-width: 1140px) {
+    .form-content .bottom-boxes {
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+    }
+  }
+
+  @media (max-width: 1140px) {
+    .form-content .date-boxes {
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+    }
+  }
         

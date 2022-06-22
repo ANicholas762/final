@@ -71,6 +71,29 @@ nav .links span {
   margin: 0 20px;
 }
 
+nav {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  text-decoration: none;
+  color: white;
+}
+
+nav span {
+  color: white;
+  margin: 0 20px;
+}
+
+@media only all and (max-width: 980px) {
+  nav {
+    padding: 0 30px;
+  }
+}
+@media only all and (max-width: 800px) {
+  nav {
+    padding: 0 10px;
+  }
+}
 .banner {
   max-width: 1280px;
   height: 500px;
@@ -402,6 +425,24 @@ nav .links span {
   border-radius: 20px;
 }
 
+@media (max-width: 1140px) {
+  .form-content .top-boxes {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 1140px) {
+  .form-content .bottom-boxes {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 1140px) {
+  .form-content .date-boxes {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+}
 .home {
   max-width: 100%;
   height: 120px;
@@ -645,6 +686,29 @@ nav .links span {
       justify-content: space-around;
 }
 
+.about-nav nav {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  text-decoration: none;
+  color: white;
+}
+
+.about-nav nav span {
+  color: white;
+  margin: 0 20px;
+}
+
+@media only all and (max-width: 980px) {
+  .about-nav nav {
+    padding: 0 30px;
+  }
+}
+@media only all and (max-width: 800px) {
+  .about-nav nav {
+    padding: 0 10px;
+  }
+}
 .tours-nav {
   max-width: 980px;
   min-height: 80px;
@@ -3413,6 +3477,29 @@ nav .links span {
       justify-content: space-around;
 }
 
+.sp-nav nav {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  text-decoration: none;
+  color: white;
+}
+
+.sp-nav nav span {
+  color: white;
+  margin: 0 20px;
+}
+
+@media only all and (max-width: 980px) {
+  .sp-nav nav {
+    padding: 0 30px;
+  }
+}
+@media only all and (max-width: 800px) {
+  .sp-nav nav {
+    padding: 0 10px;
+  }
+}
 .blog-nav {
   max-width: 980px;
   min-height: 80px;
@@ -3653,6 +3740,29 @@ nav .links span {
       justify-content: space-around;
 }
 
+.blog-nav nav {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  text-decoration: none;
+  color: white;
+}
+
+.blog-nav nav span {
+  color: white;
+  margin: 0 20px;
+}
+
+@media only all and (max-width: 980px) {
+  .blog-nav nav {
+    padding: 0 30px;
+  }
+}
+@media only all and (max-width: 800px) {
+  .blog-nav nav {
+    padding: 0 10px;
+  }
+}
 .contact-nav {
   max-width: 980px;
   min-height: 80px;
@@ -3843,4 +3953,28 @@ nav .links span {
   width: 180px;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+}
+
+.contact-nav nav {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  text-decoration: none;
+  color: white;
+}
+
+.contact-nav nav span {
+  color: white;
+  margin: 0 20px;
+}
+
+@media only all and (max-width: 980px) {
+  .contact-nav nav {
+    padding: 0 30px;
+  }
+}
+@media only all and (max-width: 800px) {
+  .contact-nav nav {
+    padding: 0 10px;
+  }
 }

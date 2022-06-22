@@ -270,3 +270,26 @@
         justify-content: space-around;
     }
 }
+
+.blog-nav nav {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+    color: white;
+  }
+   .blog-nav nav span {
+    color: white;
+    margin: 0 20px;
+  }
+  
+  @media only all and (max-width: 980px) {
+    .blog-nav nav {
+      padding: 0 30px;
+    }
+  }
+  @media only all and (max-width: 800px) {
+     .blog-nav nav {
+      padding: 0 10px;
+    }
+}
