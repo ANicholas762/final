@@ -1443,8 +1443,8 @@ nav .links span {
   max-width: 980px;
   height: 300px;
   background-color: blueviolet;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(/images/tour/tour-02.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/tour/tour-02.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/tour/tour-02.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-02.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1484,7 +1484,7 @@ nav .links span {
   width: 236px;
   height: 304px;
   background-color: darkmagenta;
-  background-image: url(/images/tour/tour-usa/usa-tour-01.jpg);
+  background-image: url(../images/tour/tour-usa/usa-tour-01.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1494,7 +1494,7 @@ nav .links span {
   width: 236px;
   height: 304px;
   background-color: darkmagenta;
-  background-image: url(/images/tour/tour-usa/usa-tour-02.jpg);
+  background-image: url(../images/tour/tour-usa/usa-tour-02.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1504,7 +1504,7 @@ nav .links span {
   width: 236px;
   height: 304px;
   background-color: darkmagenta;
-  background-image: url(/images/tour/tour-usa/usa-tour-03.jpg);
+  background-image: url(../images/tour/tour-usa/usa-tour-03.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1667,8 +1667,8 @@ nav .links span {
   max-width: 980px;
   height: 300px;
   background-color: blueviolet;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(/images/tour/tour-03.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/tour/tour-03.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/tour/tour-03.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-03.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1891,8 +1891,8 @@ nav .links span {
   max-width: 980px;
   height: 300px;
   background-color: blueviolet;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(/images/tour/tour-04.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/tour/tour-04.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/tour/tour-04.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-04.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1932,7 +1932,7 @@ nav .links span {
   width: 236px;
   height: 304px;
   background-color: darkmagenta;
-  background-image: url(/images/tour/tour-nz/nz-tour-01.jpg);
+  background-image: url(../images/tour/tour-nz/nz-tour-01.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1942,7 +1942,7 @@ nav .links span {
   width: 236px;
   height: 304px;
   background-color: darkmagenta;
-  background-image: url(/images/tour/tour-nz/nz-tour-02.jpg);
+  background-image: url(../images/tour/tour-nz/nz-tour-02.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1952,7 +1952,7 @@ nav .links span {
   width: 236px;
   height: 304px;
   background-color: darkmagenta;
-  background-image: url(/images/tour/tour-nz/nz-tour-03.jpg);
+  background-image: url(../images/tour/tour-nz/nz-tour-03.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2115,8 +2115,8 @@ nav .links span {
   max-width: 980px;
   height: 300px;
   background-color: blueviolet;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(/images/tour/tour-05.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/tour/tour-05.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/tour/tour-05.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-05.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2563,8 +2563,8 @@ nav .links span {
   max-width: 980px;
   height: 300px;
   background-color: blueviolet;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(/images/tour/tour-07.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/tour/tour-07.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/tour/tour-07.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-07.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
